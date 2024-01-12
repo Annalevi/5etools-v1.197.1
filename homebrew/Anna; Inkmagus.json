@@ -1,0 +1,1382 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "InkmagusReEditedAnna",
+                "abbreviation": "TIM",
+                "full": "The Inkmagus",
+                "authors": [
+                    "Toby lowther, Anna"
+                ],
+                "convertedBy": [
+                    "Anna"
+                ],
+                "version": "1.0",
+                "color": "6f2da8",
+                "url": "none",
+                "targetSchema": "1.2"
+            }
+        ],
+        "dateAdded": 1705049695,
+        "dateLastModified": 1705049695
+    },
+    "class": [
+        {
+            "name": "Inkmagus",
+            "source": "InkmagusReEditedAnna",
+            "hd": {
+                "number": 1,
+                "faces": 8
+            },
+            "proficiency": [
+                "wis",
+                "int"
+            ],
+            "startingProficiencies": {
+                "armor": [
+                    "{@item shield|phb|shields}"
+                ],
+                "weapons": [
+                    "Daggers, darts, shortswords, quarterstaffs, light crossbows"
+                ],
+                "tools": [
+                    "Inking supplies"
+                ],
+                "skills": [
+                    {
+                        "choose": {
+                            "from": [
+                                "athletics",
+                                "animal handling",
+                                "arcana",
+                                "medicine",
+                                "religion",
+                                "nature",
+                                "perception",
+                                "survival"
+                            ],
+                            "count": 2
+                        }
+                    }
+                ]
+            },            
+            "startingEquipment": {
+                "additionalFromBackground": true,
+                "default": [
+                    "(a) a {@item light crossbow|phb} and 20 {@item crossbow bolt|phb|bolts} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+                    "(a) an {@item explorer's pack|phb} or (b) a {@item scholar's pack|phb}",
+                    "inking supplies a tattoo needle and Two {@item dagger|phb|daggers}"
+                ],
+                "goldAlternative": "{@dice 4d4 × 10|4d4 × 10|Starting Gold}",
+                "defaultData": [
+                    {
+                        "a": [
+                            "light crossbow|phb",
+                            "crossbow bolts (20)|phb"
+                        ],
+                        "b": [
+                            {
+                                "equipmentType": "weaponSimple"
+                            }
+                        ]
+                    },
+                    {
+                        "a": [
+                            "arcane focus|phb"
+                        ],
+                        "b": [
+                            "component pouch|phb"
+                        ]
+                    },
+                    {
+                        "a": [
+                            "explorer's pack|phb"
+                        ],
+                        "b": [
+                            "scholar's pack|phb"
+                        ]
+                    },
+                    {
+                        "_": [
+                            {
+                                "item": "dagger|phb",
+                                "quantity": 2 
+                            },
+                            {
+                                "item": "",
+                                "quantity": 1
+                            },
+                            {
+                                "item": "",
+                                "quantity": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            "multiclassing": {
+                "requirements": {
+                        "int": 13
+                    }
+            },
+            "classTableGroups": [
+                {
+                    "colLabels": [
+                        "Cantrips Known"
+                    ],
+                    "rows": [
+                        [
+                            2
+                        ],
+                        [
+                            2
+                        ],
+                        [
+                            2
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            4
+                        ]
+                    ]
+                },
+                {
+                    "colLabels": [
+                        "Spells Known"
+                    ],
+                    "rows": [
+                        [
+                            0
+                        ],
+                        [
+                            0
+                        ],
+                        [
+                            1
+                        ],
+                        [
+                            1
+                        ],
+                        [
+                            2
+                        ],
+                        [
+                            2
+                        ],
+                        [
+                            2
+                        ],
+                        [
+                            2
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            5
+                        ]
+                    ]
+                },
+                {
+                    "colLabels": [
+                        "Personal Ink"
+                    ],
+                    "rows": [
+                        [
+                            2
+                        ],
+                        [
+                            2
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7
+                        ],
+                        [
+                            7
+                        ],
+                        [
+                            8
+                        ],
+                        [
+                            8
+                        ],
+                        [
+                            9
+                        ],
+                        [
+                            9
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            11
+                        ],
+                        [
+                            12
+                        ]
+                    ]
+                },
+                {
+                    "title": "Tattoos Learned Per Level",
+                    "colLabels": [
+                        "{@filter Common|items|source=inkmagusreeditedanna|type=tattoo|rarity=common|category=}",
+                        "{@filter Un common|items|source=inkmagusreeditedanna|type=tattoo|rarity=uncommon|category=}",
+                        "{@filter Rare|items|source=inkmagusreeditedanna|type=tattoo|rarity=rare|category=}",
+                        "{@filter Very vare|items|source=inkmagusreeditedanna|type=tattoo|rarity=very rare|category=}",
+                        "{@filter Legendary|items|source=inkmagusreeditedanna|type=tattoo|rarity=legendary|category=}"
+                    ],
+                    "rows": [
+                        [
+                            2,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            2,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            3,
+                            2,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            3,
+                            2,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            3,
+                            2,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            2,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            2,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            2,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            4,
+                            3,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            4,
+                            3,
+                            1,
+                            0
+                        ],
+                        [
+                            4,
+                            4,
+                            3,
+                            2,
+                            0
+                        ],
+                        [
+                            4,
+                            4,
+                            3,
+                            2,
+                            0
+                        ],
+                        [
+                            4,
+                            4,
+                            4,
+                            2,
+                            0
+                        ],
+                        [
+                            4,
+                            4,
+                            4,
+                            3,
+                            1
+                        ],
+                        [
+                            4,
+                            4,
+                            4,
+                            3,
+                            2
+                        ],
+                        [
+                            4,
+                            4,
+                            4,
+                            3,
+                            2
+                        ],
+                        [
+                            4,
+                            4,
+                            4,
+                            4,
+                            2
+                        ],
+                        [
+                            4,
+                            4,
+                            4,
+                            4,
+                            3
+                        ],
+                        [
+                            4,
+                            4,
+                            4,
+                            4,
+                            3
+                        ]
+                    ]
+                },
+                {
+                    "colLabels": [
+                        "Tattoo Slots"
+                    ],
+                    "rows": [
+                        [
+                            2
+                        ],
+                        [
+                            2
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7
+                        ],
+                        [
+                            7
+                        ],
+                        [
+                            8
+                        ],
+                        [
+                            8
+                        ],
+                        [
+                            9
+                        ],
+                        [
+                            9
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            11
+                        ],
+                        [
+                            12
+                        ]
+                    ]
+                }
+            ],
+            "classFeatures": [
+                "Imagry|Inkmagus|InkmagusReEditedAnna|1",
+                "Inkcasting|Inkmagus|InkmagusReEditedAnna|1",
+                "Channel Marks (1/rest)|Inkmagus|InkmagusReEditedAnna|2",
+                "Otherworldly Perception|Inkmagus|InkmagusReEditedAnna|2",
+                {
+                    "classFeature": "Inking Specialization|Inkmagus|InkmagusReEditedAnna|3",
+                    "gainSubclassFeature": true
+                },
+                "Ritual Painter (1st level)|Inkmagus|InkmagusReEditedAnna|3",
+                "Ability Score Improvement|Inkmagus|InkmagusReEditedAnna|4",
+                "Ritual Painter (2nd level)|Inkmagus|InkmagusReEditedAnna|5",
+                {
+                    "classFeature": "Specialist feature|Inkmagus|InkmagusReEditedAnna|6",
+                    "gainSubclassFeature": true
+                },
+                "Channel Marks (2/rest)|Inkmagus|InkmagusReEditedAnna|6",
+                "Ability Score Improvement|Inkmagus|InkmagusReEditedAnna|8",
+                "Ritual Painter (3rd level)|Inkmagus|InkmagusReEditedAnna|9",
+                {
+                    "classFeature": "Specialist feature|Inkmagus|InkmagusReEditedAnna|10",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Inkmagus|InkmagusReEditedAnna|12",
+                "Ritual Painter (4th level)|Inkmagus|InkmagusReEditedAnna|13",
+                {
+                    "classFeature": "Specialist feature|Inkmagus|InkmagusReEditedAnna|14",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Inkmagus|InkmagusReEditedAnna|16",
+                "Ritual Painter (5th level)|Inkmagus|InkmagusReEditedAnna|17",
+                {
+                    "classFeature": "Specialist feature|Inkmagus|InkmagusReEditedAnna|17",
+                    "gainSubclassFeature": true
+                },
+                "Channel Marks (3/rest)|Inkmagus|InkmagusReEditedAnna|18",
+                "Mark of the Stars|Inkmagus|InkmagusReEditedAnna|18",
+                "Ability score Improvement|Inkmagus|InkmagusReEditedAnna|19",
+                "Living Canvass|Inkmagus|InkmagusReEditedAnna|20"
+                
+            ],
+            "subclassTitle": "Specialist",
+            "classSpells": [
+                "chill touch",
+                "control flames",
+                "create bonfire",
+                "dancing light",
+                "druidcraft",
+                "friend",
+                "frostbite",
+                "guidance",
+                "gust",
+                "mending",
+                "mold earth",
+                "poison spray",
+                "primal savagery",
+                "produce flame",
+                "resistance",
+                "shape water",
+                "shillelagh",
+                "spare the dying",
+                "thorn whip",
+                "thunderclap",
+                "alarm",
+                "comprehend languages",
+                "detect magic",
+                "identify",
+                "purify food and drink",
+                "speak with animals",
+                "magic mouth",
+                "animal messenger",
+                "beast sense",
+                "locate animals or plants",
+                "silence",
+                "feign death",
+                "meld into stone",
+                "water breathing",
+                "water walk",
+                "divination",
+                "commune with nature",
+                "contact other plane"
+            ],
+            "spellcastingAbility": "int",
+            "fluff": [
+                {
+                    "type": "section",
+                    "name": "The Inkmagus",
+                    "source": "InkmagusReEditedAnna",
+                    "entries": [
+                        "A bald human, covered head to toe in black, geomteric tattoos, meditates upon a pillar. He remains motionless, the wind swirling about ruffling his clothes yet seemingly leaving him untouched. In a moment, he opens his eyes, and begins to descend a new vision set in his heart for the future of the world.",
+                        "A forest gnome, her skin dappled with ink like the shadows of a forest, moves silently through the trees, crossing a glade before disappearing again the moment she enters folliage.When she reaches the orc hunting party, she suddenly leaps forward in a bust of action, whirling blades shrieking out of the trees.",
+                        "A half-elven gambler sits at the table, the forearms poking out from his sleeves marked with four-leaved clovers and six- sided dice amongst flowing black lines. The duergar gather around expecting this new comer to lose everything as the fate of the captives comes down to a single die roll The die seems about to settle, then suddenly rolls on, landing with two sixes and guaranteeing the half-elf his victory. As the dwarves rage and shout in disbelief, a slight smile tweaks the half-elf’s lips.",
+                        "These individuals are radically different in many ways, but each is tied to the others by one thing: they are defined above all, by the magical tattoos they bear. More than simply decoration, these powerful tattoos imbue the wearer with magical powers, revealing mysteries, filling the body with arush of adrenaline, or even banding chance in your favour.",
+                        "This is the mark of the inkmagus, a magic-wielder who drawsupon the power of mystical tattoos.Different inkmagi draw their power from different sources: some from the life force that pulses through all creation, others from ancestor spirits, some from divine meditation, some from the magic of the Weave. For every inkmagus, whatever the source of their power, this power is channeled and controlled through tattoos with magical force",
+                        {
+                            "type": "entries",
+                            "name": "Colour and Vibrancy",
+                            "entries": [
+                                "For those who follow the path of the inkmagus, their own body becomes a work of art, to be built upon and developed over the course of a lifetime. As an inkmagus, your skin is your canvas, and you express your identity and values through the style and pattern of tattoos you bear.",
+                                "inkmagi have an eye for colour and form, and usually try to design their tattoos in such a way as to both exacerbate the features they find aesthetically pleasing in their own form and to abstract away from their physical body to present an image which is broader and larger than just their own four limbs.",
+                                "Wherever this class provides a description for a tattoo, this is intended as a launching platform and an inspiration, not as a prescription. Although the tattoos detailed below are those widely developed by inkmagi, each inkmagus will have their own interpretation of the correct colour, shape, and form of every tattoo, which both captures the universal imagery of the tattoos and simultaneously expresses their individuality and personality."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Every Mark has a Story",
+                            "entries": [
+                                "For an inkmagus, no two tattoos are the same, and every tattoo has a story to tell As an inkmagus, the tattoos you choose should reflect your character’s history and trajectory, the people and places they have encountered in life, and the lessons they have learned.",
+                                "When you choose your early tattoos, consider how they reflect your character’s history and ideals, the things and people that really matter to them. As you continue on your adventures, you may find that the content of those adventures begin to inform the tattoos you choose, such as choosing a tattoo to comemorate a recently fallen comrade, or a particular grand adventure.",
+                                "While you do not need to tell the stories of every tattoo you have, try to at least have a vague idea of what each tattoo means to your character, and the story they could tell"
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Creating an Inkmagus",
+                            "entries": [
+                                "As you create your inkmagus, two major questions should guide your design: who taught you the art of crafting magic tattoos, and how connected are you with the ancient traditions?",
+                                "Most inkmagi train under a master. Did you train under an established master with many pupils? Perhaps your master was a lone wanderer, driven away as a heretic for his unusual take on inkmagus traditions. Or perhaps you developed your techniques yourself, either from instructional tomes or by a stroke of inspiration. If you had a mentor, you should determine what your relationship with them was like, and why you left.",
+                                "Related to your mentor is your connection with the ancient traditions. The art of magical tattoos is founded in a tradition filled with complex rituals and intricate symbolsim, handed down from master to apprentice over many generations."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "cantripProgression": [
+                2,
+                2,
+                2,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4
+            ]
+        }
+    ],
+    "classFeature": [
+        {
+            "name": "Imagry",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "level": 1,
+            "entries": [
+                "You are adapt with expressing meaning through complex symbolism and imagery, which functions like a second language to you. When you paint or sketch a picture, you can encode in that picture a short hidden message, up to a few sentences long.",
+                "You and other creatures who know this picture language can see and understand any such message in a picture. Other creatures that do not know this language can spot the message with a successful DC 15 Intelligence (History) check related to art history, but they can’t decipher it without magic."
+            ]
+        },
+        {
+            "name": "Inkcasting",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "level": 1,
+            "entries": [
+                "Your body is covered with a number of powerful tattoos, drawn on your skin as part of an ancient ritual and imbued with magical power, which you can draw upon to produce magical effects.",
+                "Inkcasting follows the general rules of spellcasting unless otherwise stated, as found in the Player’s Handbook.",
+                {
+                    "type": "entries",
+                    "name": "Cantrips",
+                    "entries": [
+                        "Your body is marked with a number of smaller tattoos that can be invoked at will to produce simple magic effects. Each tattoo is tied to a single cantrip, which you can invoke the tattoo to produce.",
+                        "You start with two cantrip tattoos of your choice. Choose two cantrips from the {@filter inkmagus spell list|spells|class=Inkmagus (TIM)}. You gain a tattoo associated with each cantrip, and you can cast those cantrips from your tattoos. (This counts as knowing those cantrips).",
+                        "You gain an additional cantrip tattoo at 4th level, and a further cantrip tattoo at 10th level"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Personal Ink",
+                    "entries": [
+                        "You do not know or prepare spells of 1st level or higher, as other classes do. Instead, your body is marked with a number of magical inks, which either provide perpetual magical protection or can be invoked to produce magical effects.",
+                        "You start with two inks. Choose your ink from the inks options. You can only choose an ink for which you fulfil the prerequisites.You gain additional inks at higher levels, as specified in the “personal ink” column of the Inkmagus table."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Arcane Needle",
+                    "entries": [
+                        "you create an Arcane Needle, a ﬁnely tuned tool that allows you to etch beautiful art on people’s skin, magical or not, You can now create magical tattoos of common rarity.",
+                        "to create a magical tattoo you must learn how to imbue a mundane tattoo with magical energy, the amount of magical tattoos you can learn each level is specified in the “Tattoos Learned” column of the Inkmagus table. when you create your charecter pick one tattoo from the magical tattoo list and add it to your list of tattoos known.",
+                        "Whenever you finish a long rest, you can touch a person with your arcane needle and mark them with one of your tattoos, turning it into a magic tattoo.",
+                        "Your magic tattoo remains on a person indefinitely, but when you die, the magical tattoo vanishes after a number of days have passed equal to your Intelligence modifier (minimum of 1 day).",
+                        "You can tattoo more than one person at the end of a long rest; the maximum number of magical tattoos you can have on others appears in the “tattoo slots” column of the Inkmagus table. You must touch each of them with the arcane needle, and each of your tattoos can be only on one person at a time. If you try to exceed your maximum number of tattoos, the oldest tattoo immediately vanishes, and then the new tattoo applies.",
+                        "additionally, you can mark your own skin with a common magical tattoo without having to spend a tattoo slot."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Spellcasting Ability",
+                    "entries": [
+                        "Intelligence is your spellcasting ability for your inkmagus spells, since your magic draws upon an intimate knowledge of the art form. You use your Intelligence modifier whenever spell or tattoo effects refer to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for an inkmagus spell you cast and when making an attack roll with one.",
+                        {
+                            "type": "abilityDc",
+                            "name": "Spell",
+                            "attributes": [
+                                "int"
+                            ]
+                        },
+                        {
+                            "type": "abilityAttackMod",
+                            "name": "Spell",
+                            "attributes": [
+                                "int"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Spellcasting Focus",
+                    "page": 3,
+                    "entries": [
+                        "The tattoos on your body act as a spellcasting focus for your inkmagus spells."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Channel Marks (1/rest)",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "level": 2,
+            "entries": [
+                "At 2nd level you gain the ability to channel mystical energies through your tattoos, using that energy to fuel magical effects.You start with one such effect: Stroke of Luck. Your inking tradition will grant you an additional effect at 3rd level and certain inking traditions may grant further effects at higher levels.",
+                "When you use your Channel Marks, you choose which effect to create. You must then finish a short or long rest to use your Channel Marks again.",
+                "Some Channel Marks effects require saving throws. When you use an effect from this class, the DC equals to your inkmagus spell save DC.",
+                "Beginning at 6th level you can use your Channel Marks twice between rests, and beginning at 18th level you can use it three times between rests. When you finish a short or long rest, you regain all expended uses.",
+                {
+                    "type": "entries",
+                    "name": "Channel Marks: Stroke of Luck",
+                    "entries": [
+                        "As a reaction when you fail an attack roll ability check, or saving throw, you can imbue your tattoos with mystical energy to grant yourself a blessing of fortune. Roll a d4 and add it to the d20 roll for that attack roll ability check, or saving throw, possibly changing the result.",
+                        "As you increase your inkmagus level the die rolled increases in size, as shown in the Luck Die table."
+                    ]
+                },
+                {
+                    "type": "table",
+                    "caption": "Luck Die",
+                    "colLabels": [
+                        "InkMagus Level",
+                        "Die Type"
+                    ],
+                    "colStyles": [
+                        "col-3 text-center",
+                        "col-3 text-center"
+                    ],
+                    "rows": [
+                        [
+                            "2nd",
+                            "{@dice 1d4}"
+                        ],
+                        [
+                            "5th",
+                            "{@dice 1d6}"
+                        ],
+                        [
+                            "8th",
+                            "{@dice 1d8}"
+                        ],
+                        [
+                            "11th",
+                            "{@dice 1d10}"
+                        ],
+                        [
+                            "14th",
+                            "{@dice 1d12}"
+                        ],
+                        [
+                            "17th",
+                            "{@dice 2d6}"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Channel Marks (2/rest)",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "level": 6,
+            "entries": [
+                "Beginning at 6th level you can use your Channel Marks twice between rests."
+            ]
+        },
+        {
+            "name": "Channel Marks (3/rest)",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "level": 18,
+                "entries": [
+                    "beginning at 18th level you can use  your Channel Marks three times between rests."
+                ]
+        },
+        {
+            "name": "Otherworldly Perception",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "level": 2,
+            "entries": [
+                "Starting at 2nd level your perception passes beyond the visible. As an action, you can sense the presence of any creature within 30 feet of you that is invisible or on the Ethereal Plane for the next minute, and you can pinpoint any such creature that is moving. As you do not know the size or shape of the creature, you still have disadvantage on attack rolls against it.",
+                "You can use this feature a number of times equal to your Intelligence modifier (a minimum of once), and you regain expended uses when you finish a short or long rest."
+            ]
+        },
+        {
+            "name": "Ritual Painter (1st level)",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "level": 3,
+            "entries": [
+                "Also at 3rd level, you learn to use art to invoke magical rituals. You learn one 1st level spell from the inkmagus spell list, which you can cast as a ritual spell if you have a set of painter’s supplies or Inking supplies with you.",
+                "Intelligence is your spellcasting ability for this spells You gain additional rituals as you reach higher levels in this class. At 5th level you can learn one 2nd level spell from the inkmagus spell list. At 9th level you learn a 3rd level spell At 13th level you learn a 4th level spell Finally, at 17th level you can learn one 5th level spell Each of these spells you can cast as a ritual using this feature, just like the 1st level spell"
+            ]
+        },
+        {
+            "name": "Ritual Painter (2nd level)",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "level": 5,
+            "entries": [
+                "You gain additional rituals as you reach higher levels in this class. At 5th level you can learn one 2nd level spell from the inkmagus spell list."
+            ]
+        },
+        {
+            "name": "Ritual Painter (3rd level)",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "level": 9,
+            "entries": [
+                "You gain additional rituals as you reach higher levels in this class. At 9th level you can learn one 3rd level spell from the inkmagus spell list."
+            ]
+        },
+        {
+            "name": "Ritual Painter (4th level)",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "level": 13,
+            "entries": [
+               "You gain additional rituals as you reach higher levels in this class. At 13th level you can learn one 4th level spell from the inkmagus spell list."
+            ]
+        },
+        {
+            "name": "Ritual Painter (5th level)",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "level": 17,
+            "entries": [
+                "You gain additional rituals as you reach higher levels in this class. At 17th level you can learn one 5th level spell from the inkmagus spell list."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "level": 4,
+            "entries": [
+                "When you reach 4th level and again at 8th, 12th, 16th and 19th level you either:",
+                {
+                    "type": "list",
+                    "style": "list-lower-roman",
+                    "columns": 0,
+                    "name": "",
+                    "items": [
+                        "increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1 As normal you can’t increase an ability score above 20 using this feature.",
+                        "pick a {@5etools feat|feats.html} of your choice you qualify for."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "level": 8,
+            "entries": [
+                "When you reach 8th level you either:",
+                {
+                    "type": "list",
+                    "style": "list-lower-roman",
+                    "columns": 0,
+                    "name": "",
+                    "items": [
+                        "increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1 As normal you can’t increase an ability score above 20 using this feature.",
+                        "pick a {@5etools feat|feats.html} of your choice you qualify for."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "level": 12,
+            "entries": [
+               "When you reach 12th level you either:",
+               {
+                "type": "list",
+                "style": "list-lower-roman",
+                "columns": 0,
+                "name": "",
+                "items": [
+                    "increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1 As normal you can’t increase an ability score above 20 using this feature.",
+                    "pick a {@5etools feat|feats.html} of your choice you qualify for."
+                ]
+            }
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "level": 16,
+            "entries": [
+               "When you reach 16th level you either:",
+               {
+                "type": "list",
+                "style": "list-lower-roman",
+                "columns": 0,
+                "name": "",
+                "items": [
+                    "increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1 As normal you can’t increase an ability score above 20 using this feature.",
+                    "pick a {@5etools feat|feats.html} of your choice you qualify for."
+                ]
+            }
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "level": 19,
+            "entries": [
+               "When you reach 19th level you can either:",
+               {
+                "type": "list",
+                "style": "list-lower-roman",
+                "columns": 0,
+                "name": "",
+                "items": [
+                    "increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1 As normal you can’t increase an ability score above 20 using this feature.",
+                    "pick a {@5etools feat|feats.html} of your choice you qualify for."
+                ]
+            }
+            ]
+        },
+        {
+            "name": "Mark of the Stars",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "level": 18,
+            "entries": [
+                "At 18th level you develop a new tattoo which resembles interconnected stars and grants you an increased resilience. Choose one of the tattoos from the Constellation table. You gain proficiency in the saving throw associated with that tattoo.",
+            {
+                "type": "table",
+                "caption": "Optional Caption",
+                "colLabels": [
+                    "Tattoo",
+                    "Saving Throw"
+                ],
+                "colStyles": [
+                    "col-3 text-center",
+                    "col-3 text-center"
+                ],
+                "rows": [
+                    [
+                        "The Anvil",
+                        "Strengh"
+                    ],
+                    [
+                        "The Archer",
+                        "Dexterity"
+                    ],
+                    [
+                        "The Bear",
+                        "Constitution"
+                    ],
+                    [
+                        "The Chalice",
+                        "Charisma"
+                    ]
+                ]
+            }
+            ]
+        },
+        {
+            "name": "Living Canvass",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "level": 20,
+            "entries": [
+                "At 20th level your entire body becomes a malleable canvas on which you can work. You can cast the alter self spell on yourself at will Additionally, you gain the following Channel Marks feature.",
+                {
+                    "type": "entries",
+                    "name": "Channel Marks: Maleable Form",
+                    "entries": [
+                        "As an action, you can imbue your tattoos with mystical energy to transform your entire being. cast the shapechange spell on yourself, without expending material components."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Inking Specialization",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "level": 3,
+            "entries": [
+                "At 3rd level you choose an inking Inking Specialization whose principles and forms you will follow. Each Inking Specialization is detailed at the end of the class description. The Inking Specialization you choose grants you features at 3rd level and again at 6th, 10th, 14th and 17th level"
+            ]
+        },
+        {
+            "name": "Specialist feature",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "level": 6,
+            "entries": [
+                "At 6th level, you gain a feature granted by your Inking Specialization."
+            ]
+        },
+        {
+            "name": "Specialist feature",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "level": 10,
+            "entries": [
+                "At 10th level, you gain a feature granted by your Inking Specialization."
+            ]
+        },
+        {
+            "name": "Specialist feature",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "level": 14,
+            "entries": [
+                "At 14th level, you gain a feature granted by your Inking Specialization."
+            ]
+        },
+        {
+            "name": "Specialist feature",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "level": 17,
+            "entries": [
+                "At 17th level, you gain a feature granted by your Inking Specialization."
+            ]
+        }
+    ],
+    "subclassFeature": [
+        {
+            "name": "Tattoo Artist Specialist",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "subclassShortName": "Artist",
+            "subclassSource": "InkmagusReEditedAnna",
+            "level": 3,
+            "entries": [
+                "You have focused your efforts twards helping people with your skills and learned how to imbue your tattoos with more potent magical energy. you also discovered that your arcane needle can do more than just ink."
+            ]
+        },
+        {
+            "name": "Art in Violance",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "subclassShortName": "Artist",
+            "subclassSource": "InkmagusReEditedAnna",
+            "level": 3,
+            "entries": [
+                "When you adopt this specialty at 3rd level, you gain proficiency with light armor, Additionally you gain proficiency with the Sleight of Hand skill, Finally, you gain proficiency with Painter’s supplies."
+            ]
+        },
+        {
+            "name": "Tattoo Artist Spells",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "subclassShortName": "Artist",
+            "subclassSource": "InkmagusReEditedAnna",
+            "level": 3,
+            "entries": [
+                "Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Tattoo Artist Spells table. These spells count as Inkmagus spells for you, but they don’t count against the number of InkMagus spells you know",
+                {
+                    "type": "table",
+                    "caption": "Tattoo Artist Spells",
+                    "colLabels": [
+                        "InkMagus Level",
+                        "Spells"
+                    ],
+                    "colStyles": [
+                        "col-3 text-center",
+                        "col-9"
+                    ],
+                    "rows": [
+                        [
+                            "3rd",
+                            "{@spell find familiar}, {@spell illusory script}"
+                        ],
+                        [
+                            "5th",
+                            "{@spell augury}, {@spell skywrite}"
+                        ],
+                        [
+                            "9th",
+                            "{@spell phantom steed}, {@spell Leomund’s Tiny Hut}"
+                        ],
+                        [
+                            "13th",
+                            "{@spell Find Greater Steed}, {@spell Galder’s Speedy Courier}"
+                        ],
+                        [
+                            "17th",
+                            "{@spell Rary’s Telepathic Bond}, {@spell Seeming}"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Improved Arcane Needle",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "subclassShortName": "Artist",
+            "subclassSource": "InkmagusReEditedAnna",
+            "level": 3,
+            "entries": [
+                "Upon choosing this tradition at 3rd level, you can now etch tattoos of uncommon rarities.",
+                "At 7th level you can etch rare tattos, at 11th level very rare tattoos, and at 15th level legendary tattoos. at your DMs discrettion you can expand on the options presented, and create your own tattoos with their own unique abilities.",
+                "Additionally, you can mark your own skin with an uncommon magical tattoo without having to spend a tattoo slot."
+            ]
+        },
+        {
+            "name": "Channel Marks: Rush of Battle",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "subclassShortName": "Artist",
+            "subclassSource": "InkmagusReEditedAnna",
+            "level": 3,
+            "entries": [
+                "Also at 3rd level you can imbue your tattoos with passion-filled energy to empower you to greater feats of violence. For 1 minute you gain the following benefits:",
+                {
+                    "type": "list",
+                    "name": "",
+                    "items": [
+                        "Your AC increases by half your proficiency bonus (rounded down), as long as you are not wearing medium or heavy armour.",
+
+                        "Once per turn, when you hit a creature with a weapon attack using a ranged weapon or a weapon with the finesse property, you can deal an additional ld6 damage with that attack.",
+
+                        "Your base walking speed increases by 10 feet."
+                    ]
+                },
+                "When this effect on you ends, you are winded until the end of your next turn. While winded, your movement speed is halved, and you can’t take reactions."
+                ] 
+        },
+        {
+            "name": "Steel Stinger",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "subclassShortName": "Artist",
+            "subclassSource": "InkmagusReEditedAnna",
+            "level": 6,
+            "entries": [
+                "At 6th level, you adapt your Arcane Needle for more offensive purposes and it counts as a magical weapon for the porpuse of overcoming resistence and you are proficent with it. As an action you can make a melee or ranged spell attack with the arcane needle, when you do so use your intelligence modifier for the attack and damage, on a hit deal your luck die type times 1.5(rounded up) as piercing damage.",
+
+                "Additionally When you cast an Inkmagus spell through the stinger, roll your luck die, and you gain bonus to one of the spell’s damage rolls equal to the number rolled. If the spell affects multiple creatures, one creature of your choice takes the bonus damage."
+            ]
+        },
+        {
+            "name": "Ink Barrier",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "subclassShortName": "Artist",
+            "subclassSource": "InkmagusReEditedAnna",
+            "level": 10,
+            "entries": [
+                "At 10th level as a bonus action, a creature bearing a magical tattoo created through your Arcane Needle can produce a magical barrier, gaining a number of temporary hit points equal to your Intelligence modifier + half your Inkmagus level. Once a creature uses this ability, it cannot use it again until it finishes a long rest. additionally, you can mark your own skin with a rare magical tattoo without having to spend a tattoo slot."
+            ]
+        },
+        {
+            "name": "Channel Marks: Seal Spell",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "subclassShortName": "Artist",
+            "subclassSource": "InkmagusReEditedAnna",
+            "level": 10,
+            "entries": [
+                "At 10th level you can imbue your tattoos with mystic energy to capture enemy magic. When you are targeted by a spell with a level less than or equal to your Intelligence modifier (a minimum of 1st level), you can use your reaction to expend one use of your Channel Marks to create a new, temporary tattoo on your body which duplicates that spell",
+
+                "You can invoke your new tattoo to cast the spell you duplicated, using your inkmagus spellcasting ability. Once you invoke the tattoo, the tattoo disappears.",
+
+                "You can only have up to three such tattoos at a time. Each tattoo lasts a number of days equal to your proficiency bonus, before fading if it has not been invoked."
+            ]
+        },
+        {
+            "name": "Mighty Brand",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "subclassShortName": "Artist",
+            "subclassSource": "InkmagusReEditedAnna",
+            "level": 14,
+            "entries": [
+                "At 14th level, a tattoo’s power grows whenever it is created through your peerless skill. A creature bearing a magical tattoo created through your Arcane Needle can use a tattoo’s active ability twice the usual amount.",
+                "Additionally, you can mark your own skin with a legendary magical tattoo without having to spend a tattoo slot."
+            ]
+        },
+        {
+            "name": "Mark of Blades",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "subclassShortName": "Artist",
+            "subclassSource": "InkmagusReEditedAnna",
+            "level": 17,
+            "entries": [
+                "At 17th level you develop a tattoo imbued with a spirit of war. Choose two of the following features:",
+                    {
+                        "type": "item",
+                        "name": "Rapid Assault",
+                        "entries": [
+                            "You add your Intelligence modifier to Initiative checks."
+                        ]
+                    },
+                    {
+                        "type": "item",
+                        "name": "Cleaving Strike",
+                        "entries": [
+                            "If you roll a 20 on your attack roll with a melee weapon against a creature, if you are not holding another weapon, you can make an additional attack against a different creature within your reach and within 5 feet of the target of your first attack."
+                        ]
+                    },
+                    {
+                        "type": "item",
+                        "name": "Steady Aim",
+                        "entries": [
+                            "You can use a bonus action to steady your hands. If you do, any ranged weapon attack you make this turn deals an additional ld4 damage."
+                        ]
+                    },
+                    {
+                        "type": "item",
+                        "name": "Whirlwind Attack",
+                        "entries": [
+                            "If you use your bonus action to make an offhand weapon attack, you can instead make two attacks with your offhand weapon as part of that bonus action."
+                        ]
+                    }
+            ]
+        }
+    ],
+    "subclass": [
+        {
+            "name": "Tatto Artist Specialist",
+            "source": "InkmagusReEditedAnna",
+            "shortName": "Artist",
+            "subclassSpells": [
+                "find familiar",
+                "illusory script",
+                "augury",
+                "skywrite",
+                "phantom steed",
+                "Leomund’s Tiny Hut",
+                "Find Greater Steed",
+                "Galder’s Speedy Courier",
+                "Rary’s Telepathic Bond",
+                "Seeming"
+            ],
+            "subclassFeatures": [
+                "Tattoo Artist Specialist|Inkmagus|InkmagusReEditedAnna|Artist|InkmagusReEditedAnna|3",
+                "Art in Violance|Inkmagus|InkmagusReEditedAnna|Artist|InkmagusReEditedAnna|3",
+                "Tattoo Artist Spells|Inkmagus|InkmagusReEditedAnna|Artist|InkmagusReEditedAnna|3",
+                "Improved Arcane Needle|Inkmagus|InkmagusReEditedAnna|Artist|InkmagusReEditedAnna|3",
+                "Channel Marks: Rush of Battle|Inkmagus|InkmagusReEditedAnna|Artist|InkmagusReEditedAnna|3",
+                "Steel Stinger|Inkmagus|InkmagusReEditedAnna|Artist|InkmagusReEditedAnna|6",
+                "Ink Barrier|Inkmagus|InkmagusReEditedAnna|Artist|InkmagusReEditedAnna|10",
+                "Channel Marks: Seal Spell|Inkmagus|InkmagusReEditedAnna|Artist|InkmagusReEditedAnna|10",
+                "Mighty Brand|Inkmagus|InkmagusReEditedAnna|Artist|InkmagusReEditedAnna|14",
+                "Mark of Blades|Inkmagus|InkmagusReEditedAnna|Artist|InkmagusReEditedAnna|17"
+            ],
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna"
+        }
+    ],
+    "item": [
+        {
+            "name": "Abyssal Whip Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "common",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note This tattoo depicts snaking shapes and patterns}",
+                {
+                    "type": "list",
+                    "name": "Abyssal Elongation.",
+                    "items": [
+                        "As a bonus action, you can empower the tattoo for 1 minute. For the duration, each of your melee weapon attacks on your turn can reach a target up to 15 feet away, as tendrils of ink launch from your weapon or unarmed strike toward the target. Once used, this bonus action can’t be used again until the next dawn."
+                    ]
+                }
+
+            ]
+        }
+    ]
+}
