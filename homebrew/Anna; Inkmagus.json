@@ -256,7 +256,7 @@
                 },
                 {
                     "colLabels": [
-                        "Personal Ink"
+                        "{@filter Personal Ink|feats|source=inkmagusreeditedanna}"
                     ],
                     "rows": [
                         [
@@ -724,19 +724,19 @@
                     "name": "Personal Ink",
                     "entries": [
                         "You do not know or prepare spells of 1st level or higher, as other classes do. Instead, your body is marked with a number of magical inks, which either provide perpetual magical protection or can be invoked to produce magical effects.",
-                        "You start with two inks. Choose your ink from the inks options. You can only choose an ink for which you fulfil the prerequisites.You gain additional inks at higher levels, as specified in the “personal ink” column of the Inkmagus table."
+                        "You start with two inks. Choose your ink from the {@filter inks options|feats|source=inkmagusreeditedanna}. You can only choose an ink for which you fulfil the prerequisites. You gain additional inks at higher levels, as specified in the “personal ink” column of the Inkmagus table."
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Arcane Needle",
                     "entries": [
-                        "you create an Arcane Needle, a ﬁnely tuned tool that allows you to etch beautiful art on people’s skin, magical or not, You can now create magical tattoos of common rarity.",
-                        "to create a magical tattoo you must learn how to imbue a mundane tattoo with magical energy, the amount of magical tattoos you can learn each level is specified in the “Tattoos Learned” column of the Inkmagus table. when you create your charecter pick one tattoo from the magical tattoo list and add it to your list of tattoos known.",
+                        "you create an Arcane Needle, a ﬁnely tuned tool that allows you to etch beautiful art on people’s skin, magical or not, You can now create magical tattoos of {@filter Common|items|source=inkmagusreeditedanna|type=tattoo|rarity=common|category=} rarity.",
+                        "to create a magical tattoo you must learn how to imbue a mundane tattoo with magical energy, the amount of magical tattoos you can learn each level is specified in the “Tattoos Learned” column of the Inkmagus table. when you create your charecter pick two tattoos of {@filter Common|items|source=inkmagusreeditedanna|type=tattoo|rarity=common|category=} rairty from the {@filter magical tattoo list|items|source=inkmagusreeditedanna|type=wondrous item;tattoo|category=} and add them to your list of tattoos known.",
                         "Whenever you finish a long rest, you can touch a person with your arcane needle and mark them with one of your tattoos, turning it into a magic tattoo.",
                         "Your magic tattoo remains on a person indefinitely, but when you die, the magical tattoo vanishes after a number of days have passed equal to your Intelligence modifier (minimum of 1 day).",
                         "You can tattoo more than one person at the end of a long rest; the maximum number of magical tattoos you can have on others appears in the “tattoo slots” column of the Inkmagus table. You must touch each of them with the arcane needle, and each of your tattoos can be only on one person at a time. If you try to exceed your maximum number of tattoos, the oldest tattoo immediately vanishes, and then the new tattoo applies.",
-                        "additionally, you can mark your own skin with a common magical tattoo without having to spend a tattoo slot."
+                        "additionally, you can mark your own skin with a {@filter Common|items|source=inkmagusreeditedanna|type=tattoo|rarity=common|category=} magical tattoo without having to spend a tattoo slot."
                     ]
                 },
                 {
@@ -867,7 +867,7 @@
             "classSource": "InkmagusReEditedAnna",
             "level": 3,
             "entries": [
-                "Also at 3rd level, you learn to use art to invoke magical rituals. You learn one 1st level spell from the inkmagus spell list, which you can cast as a ritual spell if you have a set of painter’s supplies or Inking supplies with you.",
+                "Also at 3rd level, you learn to use art to invoke magical rituals. You learn one 1st level spell from the {@filter inkmagus spell list|spells|class=Inkmagus (TIM)}, which you can cast as a ritual spell if you have a set of painter’s supplies or Inking supplies with you.",
                 "Intelligence is your spellcasting ability for this spells You gain additional rituals as you reach higher levels in this class. At 5th level you can learn one 2nd level spell from the inkmagus spell list. At 9th level you learn a 3rd level spell At 13th level you learn a 4th level spell Finally, at 17th level you can learn one 5th level spell Each of these spells you can cast as a ritual using this feature, just like the 1st level spell"
             ]
         },
@@ -878,7 +878,7 @@
             "classSource": "InkmagusReEditedAnna",
             "level": 5,
             "entries": [
-                "You gain additional rituals as you reach higher levels in this class. At 5th level you can learn one 2nd level spell from the inkmagus spell list."
+                "You gain additional rituals as you reach higher levels in this class. At 5th level you can learn one 2nd level spell from the {@filter inkmagus spell list|spells|class=Inkmagus (TIM)}."
             ]
         },
         {
@@ -888,7 +888,7 @@
             "classSource": "InkmagusReEditedAnna",
             "level": 9,
             "entries": [
-                "You gain additional rituals as you reach higher levels in this class. At 9th level you can learn one 3rd level spell from the inkmagus spell list."
+                "You gain additional rituals as you reach higher levels in this class. At 9th level you can learn one 3rd level spell from the {@filter inkmagus spell list|spells|class=Inkmagus (TIM)}."
             ]
         },
         {
@@ -898,7 +898,7 @@
             "classSource": "InkmagusReEditedAnna",
             "level": 13,
             "entries": [
-               "You gain additional rituals as you reach higher levels in this class. At 13th level you can learn one 4th level spell from the inkmagus spell list."
+               "You gain additional rituals as you reach higher levels in this class. At 13th level you can learn one 4th level spell from the {@filter inkmagus spell list|spells|class=Inkmagus (TIM)}."
             ]
         },
         {
@@ -908,7 +908,7 @@
             "classSource": "InkmagusReEditedAnna",
             "level": 17,
             "entries": [
-                "You gain additional rituals as you reach higher levels in this class. At 17th level you can learn one 5th level spell from the inkmagus spell list."
+                "You gain additional rituals as you reach higher levels in this class. At 17th level you can learn one 5th level spell from the {@filter inkmagus spell list|spells|class=Inkmagus (TIM)}."
             ]
         },
         {
@@ -1199,9 +1199,9 @@
             "subclassSource": "InkmagusReEditedAnna",
             "level": 3,
             "entries": [
-                "Upon choosing this tradition at 3rd level, you can now etch tattoos of uncommon rarities.",
-                "At 7th level you can etch rare tattos, at 11th level very rare tattoos, and at 15th level legendary tattoos. at your DMs discrettion you can expand on the options presented, and create your own tattoos with their own unique abilities.",
-                "Additionally, you can mark your own skin with an uncommon magical tattoo without having to spend a tattoo slot."
+                "Upon choosing this tradition at 3rd level, you can now etch tattoos of {@filter uncommon|items|source=inkmagusreeditedanna|type=tattoo|rarity=uncommon|category=} rarity.",
+                "At 7th level you can etch {@filter Rare|items|source=inkmagusreeditedanna|type=tattoo|rarity=rare|category=} tattos, at 11th level {@filter Very vare|items|source=inkmagusreeditedanna|type=tattoo|rarity=very rare|category=} tattoos, and at 15th level {@filter Legendary|items|source=inkmagusreeditedanna|type=tattoo|rarity=legendary|category=} tattoos. at your DMs discrettion you can expand on the options presented, and create your own tattoos with their own unique abilities.",
+                "Additionally, you can mark your own skin with an {@filter uncommon|items|source=inkmagusreeditedanna|type=tattoo|rarity=uncommon|category=} magical tattoo without having to spend a tattoo slot."
             ]
         },
         {
@@ -1369,13 +1369,1778 @@
             "entries": [
                 "{@note This tattoo depicts snaking shapes and patterns}",
                 {
-                    "type": "list",
+                    "type": "entries",
                     "name": "Abyssal Elongation.",
-                    "items": [
-                        "As a bonus action, you can empower the tattoo for 1 minute. For the duration, each of your melee weapon attacks on your turn can reach a target up to 15 feet away, as tendrils of ink launch from your weapon or unarmed strike toward the target. Once used, this bonus action can’t be used again until the next dawn."
+                    "entries": [
+                        "As a bonus action, you can empower the tattoo for 1 minute. For the duration, each of your melee weapon attacks on your turn can reach a target up to 15 feet away, as tendrils of ink launch from your weapon or unarmed strike toward the target.",
+                        "Once used, this bonus action can’t be used again until the next dawn."
                     ]
                 }
 
+            ]
+        },
+        {
+            "name": "Bloodhound Tattto",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "common",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note This tattoo shows a unique symbol alongside a tiny arrow}",
+                {
+                    "type": "entries",
+                    "name": "Ink of Prey.",
+                    "entries": [
+                        "As a bonus action, you can cause the symbol to launch at a creature you can see within 90 feet, forcing the creature to make a DC 13 Dexterity saving throw.",
+                        "On success, the tattoo returns to you. On failure, the creature is tattooed with the symbol for the next hour. For the duration, the arrow will point in the direction of the creature, changing in length to reflect the distance to the target. At the end of the duration, the tattoo reappears on your skin.", 
+                        "Once used, this bonus action can’t be used again until the next dawn"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Cartoonist's Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "common",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note This tattoo prominently cel-shades your skin.}",
+                {
+                    "type": "entries",
+                    "name": "Animation",
+                    "entries": [
+                        "As a bonus action, you can shift the cel-shading to an adjacent part of your body"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Quick Sketch.",
+                    "entries": [
+                        "As an action, you can force all creatures in a 20-foot radius to make a DC 13 Dexterity saving throw.",
+                        "On failure, a creature becomes boldly outlined for 1 minute. For the duration, attacks against an outlined creature have advantage if the attacker can see it, and the outlined creature can’t benefit from being invisible.",
+                        "Once used, this action can't be used again until the next dawn"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Dancing Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "common",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note This tattoo depicts a humanoid figure.}",
+                {
+                    "type": "entries",
+                    "name": "Performinks.",
+                    "entries": [
+                        "As an action, you can empower this tattoo, causing the figure to dance or emote across your skin for 10 minutes.",
+                        "Choose a number of humanoids who can see you, up to your Charisma modifier + level (minimum of one). Each humanoid makes a Wisdom (Insight) check contested by your Charisma (Performance) check.",
+                        "On failure, the humanoid makes Wisdom (Perception) and Intelligence (Investigation) checks with disadvantage for the duration.",
+                        "Once used, this action can’t be used again until the next dawn."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Eldritch Claw Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "common",
+            "charges": 1,
+            "recharge": "dawn",
+            "bonusWeapon": "+1",
+            "entries": [
+                "{@note This tattoo depicts clawlike forms and other jagged shapes along your wrists and hands.}",
+                {
+                    "type": "entries",
+                    "name": "",
+                    "entries": [
+                        " When making unarmed strikes, the ink physically manifests into dark claws, granting you a +1 bonus to attack and damage rolls"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Hawk Lock Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "common",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note This tattoo coats your scalp with avian symbolry, such as feathers and wings.}",
+                {
+                    "type": "entries",
+                    "name": "Zero Ink.",
+                    "entries": [
+                        "As a bonus action, you can empower the tattoo for 1 minute, causing the tattoo to shift down from your scalp and form a mask around your eyes, absorbing glare.",
+                        "For the duration, your vision is enhanced, granting you bonuses on ranged attacks against targets at least 20 feet away. While you are in bright light, you gain +1 to attack and damage rolls.",
+                        " While in dim light, you gain +1 to attack rolls.",
+                        "At the end of the duration, the tattoo returns to your scalp, and this bonus action can’t be used again until the next dawn"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Illuminatior's Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "common",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note This tattoo contains beautiful calligraphy and images of writing implements. You can write with your fingertip as if it were an ink pen that never runs out of ink}",
+                {
+                    "type": "entries",
+                    "name": "Inkvisibility.",
+                    "entries": [
+                        "As an action, you can touch a piece of writing up to one page in length and speak a creature’s name. The writing becomes invisible to everyone other than you and the named creature for the next 24 hours.",
+                        "Either of you can dismiss the invisibility by touching the written script and willing the effect to end (no action required).",
+                        "Once used, this action can’t be used again until the next dawn."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Masquerade Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "common",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note This tattoo appears on your skin as whatever you desire}",
+                {
+                    "type": "entries",
+                    "name": "Fluid Ink.",
+                    "entries": [
+                        " As a bonus action, you can shape the tattoo into any color, pattern, or size (at least one inch wide) and move it to any area of your skin. It is always clearly a tattoo."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Disguise Self",
+                    "entries": [
+                        "As an action, you can use the tattoo to cast {@spell Disguise Self} with a spell save DC of 13.",
+                        "Once the spell is cast from the tattoo, it can’t be cast from the tattoo again until the next dawn."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Prismtic Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "common",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note This tattoo comprises all the colors of a rainbow}",
+                {
+                    "type": "entries",
+                    "name": "Tinktured Glow",
+                    "entries": [
+                        "If the tattoo is exposed, as a bonus action, you can cause it to shed bright light in a 5-foot radius and dim light in an additional 5-foot radius. You can end this effect again as a bonus action."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Color Spray.",
+                    "entries": [
+                        "As an action, you can use the tattoo to cast {@spell Color Spray}. Once the spell is cast from the tattoo, it can’t be cast from the tattoo again until the next dawn"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Spellwrought Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "common",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note This tattoo shows the script for the verbal component, the gestures for the somatic component, and a picture for the material component of a cantrip.}",
+                {
+                    "type": "entries",
+                    "name": "",
+                    "entries": [
+                        "While the tattoo is clear, you can cast this cantrip, and you cast without material components. The tattoo glows faintly for the cantrip's duration, after which the tattoo blears.",
+                        "Between now and the next dawn, you can speak the name of any cantrip to the tattoo. At dawn, the tattoo clears to show the components for the specified cantrip. If no cantrip is specified, the tattoo shows the components of the previous day's cantrip."
+                    ]
+                },
+                {
+                    "type": "table",
+                    "colStyles": [
+                        "col-3 text-center",
+                        "col-3 text-center"
+                    ],
+                    "rows": [
+                        [
+                            "{@b Spell Save DC}",
+                            "{@b Spell Attack Modifier}"
+                        ],
+                        [
+                            "13",
+                            "+5"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Vision of Argus Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "common",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note This tattoo covers its area with tight, interlocking eyes.}",
+                {
+                    "type": "entries",
+                    "name": "Diagnosis.",
+                    "entries": [
+                        " As an action, you can touch a creature and empower the tattoo for 1 minute, causing the eyes to sweep across the creature's skin.",
+                        "At the end of the duration, the tattoos return to their original positions and you learn what spells or diseases, if any, are currently affecting it.",
+                        "Losing physical contact with the creature during the duration causes the tattoo to return prematurely, and you learn nothing.",
+                        "Once used, this action can’t be used again until the next dawn."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Writhing Grasp Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "common",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note This tattoo has long intertwining designs}",
+                {
+                    "type": "entries",
+                    "name": "Grasping Tendrils.",
+                    "entries": [
+                        "You can, as an action, cause the tattoo to extrude into inky tendrils, which reach for a creature you can see within 15 feet of you.",
+                        "The creature must succeed on a DC 13 Strength saving throw or take {@dice 1d6} force damage and be {@condition grappled} by you.",
+                        "As an action, the creature can escape the grapple by succeeding on a DC 13 Strength {@skill (Athletics)} or Dexterity {@skill (Acrobatics)} check. The grapple also ends if you halt it (no action required) or if the creature is ever more than 15 feet away from you.",
+                        "Once used, this action can't be used until the next dawn."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Wild Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "common",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note this magic tattoo has a random design and enchantment every dawn.}",
+                {
+                    "type": "entries",
+                    "name": "Wild enchantment",
+                    "entries": [
+                        "Roll on the --- table and the --- table to find out what enchantments it has today"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Angel Tattoo (common)",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "common",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note Angel tattoos harness divine magic and confer it on their owners. The powers of the tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                {
+                    "type": "entries",
+                    "name": "Celestial Strikes.",
+                    "entries": [
+                        "Your attacks count as magical for the purpose of overcoming resistance and immunity to nonmagical weapons."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bear Tattoo (common)",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "common",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note The powers of a bear tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                {
+                    "type": "entries",
+                    "name": "Bear Endurance.",
+                    "entries": [
+                        "Your Constitution score increases by 1."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Chameleon Tattoo (common)",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "common",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note The powers of a chameleon tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                {
+                    "type": "entries",
+                    "name": "Chameleon Skin.",
+                    "entries": [
+                        "As an action, you can cause your skin, and anything you're wearing, to change colour to match your environment. Provided you do not move more than 10 feet in a round, cast a prominent shadow, attack or cast a spell you become invisible to the naked eye."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Cobra Tattoo (common)",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "common",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note The powers of a cobra tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                {
+                    "type": "entries",
+                    "name": "Poison Defence.",
+                    "entries": [
+                        "You gain advantage on saving throws against poison."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Dolphin Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "common",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note }",
+                {
+                    "type": "entries",
+                    "name": "",
+                    "entries": [
+                        "You gain a swimming speed equal to your walking speed and you can hold your breath for 20 minutes."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Dragon Tattoo (common)",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "common",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note Dragon tattoos tap into the magic of the mythical beasts. The powers of the tattoo aredetermined by its rarity and the colour of the ink, and rarer tattoos feature all the powers of less rare tattoos (with the exception that Twinned Draconic Strikes replaces Draconic Strikes).}",
+                {
+                    "type": "entries",
+                    "name": "Draconic Resilience.",
+                    "entries": [
+                        "When you take damage of the type associated with your depicted dragon (determined by the colour of the tattoo's ink),"
+                    ]
+                },
+                {
+                    "type": "table",
+                    "colLabels": [
+                        "Ink Colour",
+                        "Damage Type"
+                    ],
+                    "colStyles": [
+                        "col-3 text-center",
+                        "col-3 text-center"
+                    ],
+                    "rows": [
+                        [
+                            "Black",
+                            "Acid"
+                        ],
+                        [
+                            "Blue",
+                            "Lightning"
+                        ],
+                        [
+                            "Bronze",
+                            "Lightning"
+                        ],
+                        [
+                            "Copper",
+                            "Acid"
+                        ],
+                        [
+                            "Gold",
+                            "Fire"
+                        ],
+                        [
+                            "Green",
+                            "Poison"
+                        ],
+                        [
+                            "Red",
+                            "Fire"
+                        ],
+                        [
+                            "Silver",
+                            "Cold"
+                        ],
+                        [
+                            "White",
+                            "Cold"
+                        ]
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "entries": [
+                        "you can use your reaction to reduce that damage by 1d4 times your Proficiency bonus."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Eagle Tattoo (common)",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "common",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note The powers of an eagle tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                {
+                    "type": "entries",
+                    "name": "Speed of the Eagle.",
+                    "entries": [
+                        "Your walking speed increases by 5 feet."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Kingfisher Tattoo (common)",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "common",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note The powers of a kingfisher tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                {
+                    "type": "entries",
+                    "name": "Regal Presence.",
+                    "entries": [
+                        "Your Charisma score increases by 1."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Mermaid Tattoo (common)",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "common",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note The powers of a mermaid tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                {
+                    "type": "entries",
+                    "name": "Amphibious.",
+                    "entries": [
+                        "You can breathe air and water."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Monkey Tattoo (common)",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "common",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note The powers of the monkey tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                {
+                    "type": "entries",
+                    "name": "Monkey Brain.",
+                    "entries": [
+                        "Your Intelligence score increases by 1."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Owl Tattoo (common)",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "common",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note The powers of an owl tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                {
+                    "type": "entries",
+                    "name": "Owl's Intuition.",
+                    "entries": [
+                        "Your Wisdom score increases by 1."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Panther Tattoo (common)",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "common",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note The powers of a panther tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                {
+                    "type": "entries",
+                    "name": "Panther Agility.",
+                    "entries": [
+                        "Your Dexterity score increases by 1."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Phoenix Tattoo (common)",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "common",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note The powers of a phoenix tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                {
+                    "type": "entries",
+                    "name": "Protection of the Phoenix.",
+                    "entries": [
+                        "The mark of the phoenix gives you immunity to the paralysed and petrified conditions."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Tiger Tattoo (common)",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "common",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note The powers of a tiger tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                {
+                    "type": "entries",
+                    "name": "Tiger Strength.",
+                    "entries": [
+                        "Your Strength score increases by 1."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Unicorn Tattoo (common)",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "common",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note The powers of a unicorn tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                {
+                    "type": "entries",
+                    "name": "Celestial Shield.",
+                    "entries": [
+                        "You can cast shield of faith on yourself, without components. Once used, this feature can't be used again until you finish a short or long rest."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Wolf Tattoo (common)",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "common",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note The powers of a wolf tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                {
+                    "type": "entries",
+                    "name": "Wild Instincts.",
+                    "entries": [
+                        "Your Wisdom score increases by 1."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Angelwings Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "uncommon",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note This tattoo depicts a pair of crossed white wings.}",
+                {
+                    "type": "entries",
+                    "entries": [
+                        "As a bonus action while this tattoo is on your skin, you can cause white, angelic wings to sprout from your back for 1 minute.",
+                        "While these wings are extended, you have a flying speed of 60 feet.",
+                        "You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Gambler's Friend Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "uncommon",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note This tattoo incorporates various gambling images, such as dice showing all sixes and lucky clovers.}",
+                {
+                    "type": "entries",
+                    "entries": [
+                        "While it's on your skin, you gain a +1 bonus to all saving throws."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Luck.",
+                    "entries": [
+                        "While the tattoo is on your skin, you can call on its luck (no action required) to reroll one attack roll ability check, or saving throw you dislike. You must use the new roll.",
+                        "Once used, this property can’t be used again until the next dawn."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Knifedancer Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "uncommon",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note This tattoo resembles a ring of daggers around your forearm.}",
+                {
+                    "type": "entries",
+                    "entries": [
+                        "While it's on your skin, you can use a bonus action to create a spectral dagger in each hand for 1 minute, These daggers are magical.",
+                        "for the duration attacks made with these daggers gain +1 bonus to attack and damage rolls.",
+                        "additonally,for the duration, if you throw the daggers they return to your hands at the end of your turn.",
+                        "Once used, this bonus action can’t be used again until the next dawn."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Barrier Tattoo (common)",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "uncommon",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note this magic tattoo depicts protective imagery and uses ink that resembles liquid metal.}",
+                {
+                    "type": "entries",
+                    "name": "Protection.",
+                    "entries": [
+                        "While you aren’t wearing armor, the tattoo grants you an Armor Class of 12 + your Dexterity modifier",
+                        "You can use a shield and still gain this benefit."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Eldritch Whip Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "uncommon",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note this magic tattoo depicts clawlike forms and other jagged shapes.}",
+                {
+                    "type": "entries",
+                    "name": "Magical Strike.",
+                    "entries": [
+                        "While the tattoo is on your skin, your unarmed strikes are considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks, and you gain a +1 bonus to attack and damage rolls with unarmed strikes."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Eldritch Maul.",
+                    "entries": [
+                        "As a bonus action, you can empower the tattoo for 1 minute. For the duration, each of your melee weapon attacks can reach a target up to 15 feet away from you, as inky tendrils launch from your weapon or unarmed strike toward the target.",
+                        "In addition, your melee weapon attacks deal an extra 1d6 force damage on a hit.",
+                        "Once used, this bonus action can’t be used again until the next dawn."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Coiling Grasp Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "uncommon",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note this magic tattoo has long intertwining s designs.}",
+                {
+                    "type": "entries",
+                    "name": "Grasping Tendrils.",
+                    "entries": [
+                        "While the tattoo is on your skin, you can, as an action, cause the tattoo to extrude into inky tendrils, which reach for a creature you can see within 15 feet of you.",
+                        "The creature must succeed on a DC 15 Strength saving throw or take 3d6 force damage and be grappled by you. As an action, the creature can escape the grapple by succeeding on a DC 15 Strength (Athletics) or Dexterity (Acrobatics) check.",
+                        "The grapple also ends if you halt it (no action required), if the creature is ever more than 15 feet away from you, or if you use this tattoo on a different creature.",
+                        "Once used, this action can't be used until the next dawn."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Container Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "uncommon",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note This tattoo depicts an object of size Small or Tiny.}",
+                {
+                    "type": "entries",
+                    "name": "Store.",
+                    "entries": [
+                        "As an action, you can touch an instance of the object to the tattoo, causing inky vines to absorb it into the skin. Up to 12 objects of the same type can be stored this way.",
+                        "As a bonus action, you can pull a stored item from the tattoo."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ghastly Gaze Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "uncommon",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note This tattoo contains symbols of pain and agony.}",
+                {
+                    "type": "entries",
+                    "name": "Inktimidate.",
+                    "entries": [
+                        "As a bonus action, you can empower the tattoo for 1 minute, causing the tattoo to bulge and contract menacingly.",
+                        "For the duration, you have advantage on Charisma (Intimidation) checks and disadvantage on Charisma (Persuasion) checks against any target that can see you.",
+                        "Once used, this bonus action can’t be used again until the next dawn."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Hold Person.",
+                    "entries": [
+                        "As an action, you can use the tattoo to cast {@spell Hold Person} with a spell save DC of 14.",
+                        "Once the spell is cast from the tattoo, it can’t be cast from the tattoo again until the next dawn."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Improved Hawk Lock Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "uncommon",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note This tattoo depicts avian imagery, such as feathers, beaks, and wings, flowing over your scalp and down neck.}",
+                {
+                    "type": "entries",
+                    "name": "Zero Ink.",
+                    "entries": [
+                        "As a bonus action, you can empower the tattoo for 1 minute, causing the tattoo to shift down from your scalp and form a mask around your eyes, absorbing glare.",
+                        "For the duration, your vision is enhanced, granting you bonuses on ranged attacks against targets at least 20 feet away. While you are in bright light, you gain +1 to attack and damage rolls.",
+                        "While in dim light, you gain +1 to attack rolls.",
+                        "At the end of the duration, the tattoo returns to your scalp."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Lifewell Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "uncommon",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note This tattoo comprises symbols of life and rebirth.}",
+                {
+                    "type": "entries",
+                    "entries": [
+                        "Whenever you are dying at the start of your turn, ink sweeps over your wounds, instantly stabilizing you.",
+                        "In addition, whenever you roll a Hit Die to regain hit points, ink stitches across your injuries, doubling the hit points you receive."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Mooring Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "uncommon",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note This tattoo's ink feels supernaturally heavy beneath the skin.}",
+                {
+                    "type": "entries",
+                    "entries": [
+                        "You have advantage on ability checks and saving throws to avoid being moved or knocked prone."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Anchor.",
+                    "entries": [
+                        "As a bonus action, you can empower the tattoo. While empowered, you cannot use your movement, and you cannot be moved even if you are defying gravity.",
+                        "A creature can use an action to make a DC 30 Strength check, moving you up to 10 feet on a success."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Veil Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "uncommon",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note This tattoo shimmers on the skin, some parts of it appearing blurred.}",
+                {
+                    "type": "entries",
+                    "entries": [
+                        "When you make a Dexterity (Sleight of Hand) check to steal something in view of creatures that rely on sight, you roll with advantage."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Blur.",
+                    "entries": [
+                        "As an action, you can use the tattoo to cast {@spell Blur}.",
+                        "Once the spell is cast from the tattoo, it can’t be cast from the tattoo again until the next dawn."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Angel Tattoo (uncommon)",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "uncommon",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note Angel tattoos harness divine magic and confer it on their owners. The powers of the tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                {
+                    "type": "entries",
+                    "name": "Celestial Sense.",
+                    "entries": [
+                        "You may cast detect good or evil without using a spell slot. You must complete a short rest before using this ability again."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bear Tattoo (uncommon)",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "uncommon",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note The powers of a bear tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                {
+                    "type": "entries",
+                    "name": "Bear Stamina.",
+                    "entries": [
+                        "You have advantage on Constitution saving throws."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Chameleon Tattoo (uncommon)",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "uncommon",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note The powers of a chameleon tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                {
+                    "type": "entries",
+                    "name": "Sticky Feet.",
+                    "entries": [
+                        "You gain a climbing speed equal to your walking speed."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Cobra Tattoo (uncommon)",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "uncommon",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note The powers of a cobra tattoo are determined by its rarity.The rarer tattoos feature all the powers of the less rare tattoos.}",
+                {
+                    "type": "entries",
+                    "name": "Cobra Strike.",
+                    "entries": [
+                        "You gain the ability to strike with the speed and precision of a cobra. You may use a bonus action to give yourself advantage on your next melee attack roll. The attack must take place in the same round. You may use this feature a number of times equal to your proficiency bonus, after which you must finish a short or long rest before using it again."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Dragon Tattoo (uncommon)",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "uncommon",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note Dragon tattoos tap into the magic of themythical beasts. The powers of the tattoo aredetermined by its rarity and the colour of the ink, and rarer tattoos feature all the powers of less rare tattoos (with the exception that Twinned Draconic Strikes replaces Draconic Strikes).}",
+                {
+                    "type": "entries",
+                    "name": "Draconic Strikes.",
+                    "entries": [
+                        "You deal an additional 1d4 damage, of the type associated with your depicted dragon, on all one-handed weapon and unarmed strikes made with the limb upon which your tattoo is drawn, as well as on any two-handed weapon attacks. These attack are considered magical for the purpose of overcoming resistances."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Eagle Tattoo (uncommon)",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "uncommon",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note The powers of an eagle tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                {
+                    "type": "entries",
+                    "name": "Swoop of the Eagle.",
+                    "entries": [
+                        "When you move at least 20 feet in a straight line towards an opponent, you gain advantage on your first attack roll against that target."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Kingfisher Tattoo (uncommon)",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "uncommon",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note The powers of a kingfisher tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                {
+                    "type": "entries",
+                    "name": "Darting Attack.",
+                    "entries": [
+                        "When you move at least 10 feet in a straight line before hitting a creature with a melee attack, your movement doesn't provoke opportunity attacks from that creature for the rest of your turn."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Mermaid Tattoo (uncommon)",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "uncommon",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note The powers of a mermaid tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                {
+                    "type": "entries",
+                    "name": "Merfolk Form.",
+                    "entries": [
+                        "As a bonus action, you can change the shape of your lower body, and anything worn or attached to it, to that of a large piscine tail. You gain a swimming speed of 40 feet when in your new form. You may revert back to your original form by using an action."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Monkey Tattoo (uncommon)",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "uncommon",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note The powers of the monkey tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                {
+                    "type": "entries",
+                    "name": "Monkey Agility.",
+                    "entries": [
+                        "You have advantage on Dexterity saving throws."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Owl Tattoo (uncommon)",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "uncommon",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note The powers of an owl tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                {
+                    "type": "entries",
+                    "name": "Owl Shape.",
+                    "entries": [
+                        "As an action you may transform into an owl. You may talk while in animal shape and cast spells that don't require somatic or material components, otherwise this feature is governed by the same rules as the druid's Wild Shape ability. You may stay in owl form for as long as you wish, reverting to your normal form by spending an action. Once you've reverted back to your normal form, you cannot use this ability again until you finish a short or long rest."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Panther Tattoo (uncommon)",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "uncommon",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note The powers of a panther tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                {
+                    "type": "entries",
+                    "name": "Nocturnal Hunter.",
+                    "entries": [
+                        "You gain darkvision to a range of 60 feet (if you already have darkvision, its range increases by 30 feet), and you have advantage on Dexterity (Stealth) checks made in dim light or darkness."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Phoenix Tattoo (uncommon)",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "uncommon",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note The powers of a phoenix tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                {
+                    "type": "entries",
+                    "name": "Fortune of the Phoenix.",
+                    "entries": [
+                        "If you fail a saving throw, you can choose to retake it with advantage. Once used, you must finish a long rest before using this ability again."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Tiger Tattoo (uncommon)",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "uncommon",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note The powers of a tiger tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                {
+                    "type": "entries",
+                    "name": "Eye of the Tiger.",
+                    "entries": [
+                        "You develop the eye of the hunter and with it a will of steel. You gain darkvision to a range of 60 feet (if you already have darkvision, its range increases by 30 feet), and you become proficient in your choice of either Charisma or Wisdom saving throws."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Unicorn Tattoo (uncommon)",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "uncommon",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note The powers of a unicorn tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                {
+                    "type": "entries",
+                    "name": "Fey Spirit.",
+                    "entries": [
+                        "You gain advantage on saving throws against being charmed, paralysed or poisoned."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Wolf Tattoo (uncommon)",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "uncommon",
+            "charges": 1,
+            "recharge": "dawn",
+            "entries": [
+                "{@note The powers of a wolf tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                {
+                    "type": "entries",
+                    "name": "Wild Nature",
+                    "entries": [
+                        "You gain proficiency in one of the following skills: Nature, Perception or Survival, as well as one of your choice of Wisdom or Constitution saving throws."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Angel Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "varies",
+            "entries": [
+                "{@note Angel tattoos harness divine magic and confer it on their owners. The powers of the tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+
+                "{@item Angel Tattoo (common)|InkmagusReEditedAnna}",
+                "{@item Angel Tattoo (uncommon)|InkmagusReEditedAnna}"
+            ]
+        },
+        {
+            "name": "Bear Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "varies",
+            "entries": [
+                "{@note The powers of a bear tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+
+                "{@item Bear Tattoo (common)|InkmagusReEditedAnna}",
+                "{@item Bear Tattoo (uncommon)|InkmagusReEditedAnna}"
+            ]
+        },
+        {
+            "name": "Chameleon Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "varies",
+            "entries": [
+                "{@note The powers of a chameleon tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                "{@item Chameleon Tattoo (common)|InkmagusReEditedAnna}",
+                "{@item Chameleon Tattoo (uncommon)|InkmagusReEditedAnna}"
+            ]
+        },
+        {
+            "name": "Cobra Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "varies",
+            "entries": [
+                "{@note The powers of a cobra tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                "{@item Cobra Tattoo (common)|InkmagusReEditedAnna}",
+                "{@item Cobra Tattoo (uncommon)|InkmagusReEditedAnna}"
+            ]
+        },
+        {
+            "name": "Dragon Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "varies",
+            "entries": [
+                "{@note Dragon tattoos tap into the magic of the mythical beasts. The powers of the tattoo aredetermined by its rarity and the colour of the ink, and rarer tattoos feature all the powers of less rare tattoos (with the exception that Twinned Draconic Strikes replaces Draconic Strikes).}",
+                "{@item Dragon Tattoo (common)|InkmagusReEditedAnna}",
+                "{@item Dragon Tattoo (uncommon)|InkmagusReEditedAnna}"
+            ]
+        },
+        {
+            "name": "Eagle Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "varies",
+            "entries": [
+                "{@note The powers of an eagle tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                "{@item Eagle Tattoo (common)|InkmagusReEditedAnna}",
+                "{@item Eagle Tattoo (uncommon)|InkmagusReEditedAnna}"
+            ]
+        },
+        {
+            "name": "Kingfisher Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "varies",
+            "entries": [
+                "{@note The powers of a kingfisher tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                "{@item Kingfisher Tattoo (common)|InkmagusReEditedAnna}",
+                "{@item Kingfisher Tattoo (uncommon)|InkmagusReEditedAnna}"
+            ]
+        },
+        {
+            "name": "Mermaid Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "varies",
+            "entries": [
+                "{@note The powers of a mermaid tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                "{@item Mermaid Tattoo (common)|InkmagusReEditedAnna}",
+                "{@item Mermaid Tattoo (uncommon)|InkmagusReEditedAnna}"
+            ]
+        },
+        {
+            "name": "Monkey Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "varies",
+            "entries": [
+                "{@note The powers of the monkey tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                "{@item Monkey Tattoo (common)|InkmagusReEditedAnna}",
+                "{@item Monkey Tattoo (uncommon)|InkmagusReEditedAnna}"
+            ]
+        },
+        {
+            "name": "Owl Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "varies",
+            "entries": [
+                "{@note he powers of an owl tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                "{@item Owl Tattoo (common)|InkmagusReEditedAnna}",
+                "{@item Owl Tattoo (uncommon)|InkmagusReEditedAnna}"
+            ]
+        },
+        {
+            "name": "Panther Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "varies",
+            "entries": [
+                "{@note The powers of a panther tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                "{@item Panther Tattoo (common)|InkmagusReEditedAnna}",
+                "{@item Panther Tattoo (uncommon)|InkmagusReEditedAnna}"
+            ]
+        },
+        {
+            "name": "Phoenix Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "varies",
+            "entries": [
+                "{@note The powers of a phoenix tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                "{@item Phoenix Tattoo (common)|InkmagusReEditedAnna}",
+                "{@item Phoenix Tattoo (uncommon)|InkmagusReEditedAnna}"
+            ]
+        },
+        {
+            "name": "Tiger Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "varies",
+            "entries": [
+                "{@note The powers of a tiger tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                "{@item Tiger Tattoo (common)|InkmagusReEditedAnna}",
+                "{@item Tiger Tattoo (uncommon)|InkmagusReEditedAnna}"
+            ]
+        },
+        {
+            "name": "Unicorn Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "varies",
+            "entries": [
+                "{@note The powers of a unicorn tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                "{@item Unicorn Tattoo (common)|InkmagusReEditedAnna}",
+                "{@item Unicorn Tattoo (uncommon)|InkmagusReEditedAnna}"
+            ]
+        },
+        {
+            "name": "Wolf Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "varies",
+            "entries": [
+                "{@note The powers of a wolf tattoo are determined by its rarity. The rarer tattoos feature all the powers of the less rare tattoos.}",
+                "{@item Wolf Tattoo (common)|InkmagusReEditedAnna}",
+                "{@item Wolf Tattoo (uncommon)|InkmagusReEditedAnna}"
+            ]
+        }
+    ],
+    "feat": [
+        {
+            "name": "Ankle Wings",
+            "source": "InkmagusReEditedAnna",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Inkmagus",
+                            "source": "InkmagusReEditedAnna",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "{@note This tattoo resembles a set of wings on your ankles.}",
+                {
+                    "type": "list",
+                    "items": [
+                        "Your base walking speed is increased by 10 feet.",
+                        "You can invoke this tattoo to cast the expeditious retreat spell targeting yourself at will."
+                    ]
+                }
+                
+                
+            ]
+            
+        },
+        {
+            "name": "Armour of the Tortoise",
+            "source": "InkmagusReEditedAnna",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Inkmagus",
+                            "source": "InkmagusReEditedAnna",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "{@note This tattoo resembles a tortoise shell}",
+                {
+                    "type": "list",
+                    "items": [
+                        "While you are not wearing armour, your AC is equal to 13 + your Dexterity modifier."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Beast Tongue",
+            "source": "InkmagusReEditedAnna",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Inkmagus",
+                            "source": "InkmagusReEditedAnna",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "{@note This tattoo resembles a triangle of three dots on your tongue.}",
+                {
+                    "type": "list",
+                    "items": [
+                        "You have advantage on Charisma checks made to interact with beasts of size Medium or larger.",
+                        "You can invoke this tattoo to cast the speak with animals spell at will"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Eyes of Night",
+            "source": "InkmagusReEditedAnna",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Inkmagus",
+                            "source": "InkmagusReEditedAnna",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "{@note This tattoo resembles two open eyes tattooed on your eyelids.}",
+                {
+                    "type": "list",
+                    "items": [
+                        "You can see normally in darkness, both magical and nonmagical to a distance of 120 feet."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Eyes of the Otherworld",
+            "source": "InkmagusReEditedAnna",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Inkmagus",
+                            "source": "InkmagusReEditedAnna",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "{@note This tattoo resembles an open eye over your heart.}",
+                {
+                    "type": "list",
+                    "items": [
+                        "You gain proficiency in the Insight skill if you did not already have it.",
+                        "You can invoke this tattoo to cast the detect evil and good spell at will"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Eyes of the Weave",
+            "source": "InkmagusReEditedAnna",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Inkmagus",
+                            "source": "InkmagusReEditedAnna",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "{@note This tattoo resembles two open eyes on the backs of yourhands.}",
+                {
+                    "type": "list",
+                    "items": [
+                        "You gain proficiency in the Arcana skill if you did not already have it.",
+                        "You can invoke this tattoo to cast the detect magic spell at will"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Eyes of the Word",
+            "source": "InkmagusReEditedAnna",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Inkmagus",
+                            "source": "InkmagusReEditedAnna",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "{@note This tattoo resembles an open eye on each palm.}",
+                {
+                    "type": "list",
+                    "items": [
+                        "You learn one additional language of your choice.",
+                        "You can invoke this tattoo to cast comprehend languages at will"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Forest Print",
+            "source": "InkmagusReEditedAnna",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Inkmagus",
+                            "source": "InkmagusReEditedAnna",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "{@note This tattoo resembles the dappled greens and browns of a natural forest.}",
+                {
+                    "type": "list",
+                    "items": [
+                        "You can hide even while only lightly obscured by leaves, grass, or other plant-based barriers.",
+                        "Once you reach 5th level if you are heavily obscured from all hostile creatures by leaves, grass, or other natural barriers, you can use a bonus action to become invisible. This invisibility lasts until you move, take an action, or take a reaction"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Keepsafe",
+            "source": "InkmagusReEditedAnna",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Inkmagus",
+                            "source": "InkmagusReEditedAnna",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "{@note This tattoo resembles a small circle outlined in dotted lines on your dominant wrist.}",
+                {
+                    "type": "entries",
+                    "entries": [
+                        "As an action while you are holding an object which is no more than 5 feet long in any dimension, weighs less than 20 pounds, and is not held by anyone else, you can invoke this tattoo to store that object in an extradimensional space.",
+                        "An image of the object appears in the bounded area of the tattoo.",
+                        "As a bonus action, you can invoke this tattoo again to cause the object stored in the extradimensional space to appear in your hand.",
+                        "Alternatively, you can use a bonus action to dismiss the object stored in the extradimensional space, in which case it appears in a random location in the Astral Sea, and the extradimensional space is now empty.",
+                        "You can only store a maximum of one object in the extradimensional space at any one time"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Pierced Vigour",
+            "source": "InkmagusReEditedAnna",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Inkmagus",
+                            "source": "InkmagusReEditedAnna",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "{@note This tattoo resembles a heart pierced through by a sword blade.}",
+                {
+                    "type": "list",
+                    "items": [
+                        "Whenever you would gain temporary hit points, gain that number of temporary hit points + 1.",
+                        "You can invoke this tattoo to cast the false life spell at 1st level at will without material components"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Sight Thief",
+            "source": "InkmagusReEditedAnna",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Inkmagus",
+                            "source": "InkmagusReEditedAnna",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "{@note This tattoo resembles an abstract pattern of dots on your temples.}",
+                {
+                    "type": "entries",
+                    "entries": [
+                        "As an action, you can invoke this tattoo and touch a creature to attempt to see through its senses. An unwilling creature can attempt an Intelligence saving throw. Creatures with an Intelligence score less than or equal to your proficiency bonus automatically fail their saving throw.",
+                        "On a successful save, a creature is immune to this effect for 24 hours.",
+                        "While you are seeing through a creature's senses, you are blind and deaf to your own surroundings.",
+                        "While you are seeing through the senses of a creature with an Intelligence less than or equal to your profiency bonus, you can also control that creature for as long as you see through its senses. You can't force a creature to attack or to enter a dangerous situation if it would not do so naturally"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Faceless",
+            "source": "InkmagusReEditedAnna",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Inkmagus",
+                            "source": "InkmagusReEditedAnna",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "{@note This tattoo resembles a humanoid face, but each time you look at it the face is subtley different.}",
+                {
+                    "type": "list",
+                    "items": [
+                        "You gain proficiency with the Deception skill, if you do not already have it.",
+                        "You can invoke this tattoo to cast the disguise self spell at will"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Wakefulness",
+            "source": "InkmagusReEditedAnna",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Inkmagus",
+                            "source": "InkmagusReEditedAnna",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "{@note This tattoo resembles a head with flowers growing out of it.}",
+                {
+                    "type": "list",
+                    "items": [
+                        "You no longer need to sleep, and you gain the benefits of a long rest from spending 8 hours doing only light activity, such as keeping watch or reading a book.",
+                        "As an action, you can invoke this tattoo to immediately awaken every creature that is in a nonmagical sleep within 30 feet of you. For each creature within 30 feet of you that is in a magical sleep, make an Intelligence check. The DC for this check is equal to the DC of the magical effect, 10 + the level of the spell (if it is a spell which does not have a DC), or an appropriate DC determined by the DM if it neither has a DC nor is a spell On a successful check, that creature wakens from that magical sleep."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "White Feather",
+            "source": "InkmagusReEditedAnna",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Inkmagus",
+                            "source": "InkmagusReEditedAnna",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "{@note This tattoo resembles a white feather caught in the breeze.}",
+                {
+                    "type": "list",
+                    "items": [
+                        "When calculating the damage you take from falling, reduce the distance you fell by 10 feet for that calculation.",
+                        "You can invoke this tattoo to cast feather fall at will"
+                    ]
+                }
             ]
         }
     ]
