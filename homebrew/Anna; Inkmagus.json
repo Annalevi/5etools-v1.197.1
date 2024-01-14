@@ -37,23 +37,24 @@
                     "{@item shield|phb|shields}"
                 ],
                 "weapons": [
-                    "Daggers, darts, shortswords, quarterstaffs, light crossbows"
+                    "{@item dagger|PHB},{@item dart|PHB},{@item shortsword|PHB},{@item quarterstaff|PHB},{@item light crossbow|PHB}."
                 ],
                 "tools": [
-                    "Inking supplies"
+                    "{@item Inking Supplies|InkmagusReEditedAnna}"
                 ],
                 "skills": [
                     {
                         "choose": {
                             "from": [
                                 "athletics",
+                                "acrobatics",
                                 "animal handling",
                                 "arcana",
                                 "medicine",
-                                "religion",
+                                "history",
                                 "nature",
                                 "perception",
-                                "survival"
+                                "investigation"
                             ],
                             "count": 2
                         }
@@ -65,7 +66,7 @@
                 "default": [
                     "(a) a {@item light crossbow|phb} and 20 {@item crossbow bolt|phb|bolts} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
                     "(a) an {@item explorer's pack|phb} or (b) a {@item scholar's pack|phb}",
-                    "inking supplies a tattoo needle and Two {@item dagger|phb|daggers}"
+                    "{@item Inking Supplies|InkmagusReEditedAnna} an arcane needle and Two {@item dagger|phb|daggers}"
                 ],
                 "goldAlternative": "{@dice 4d4 × 10|4d4 × 10|Starting Gold}",
                 "defaultData": [
@@ -82,14 +83,6 @@
                     },
                     {
                         "a": [
-                            "arcane focus|phb"
-                        ],
-                        "b": [
-                            "component pouch|phb"
-                        ]
-                    },
-                    {
-                        "a": [
                             "explorer's pack|phb"
                         ],
                         "b": [
@@ -99,17 +92,17 @@
                     {
                         "_": [
                             {
+                                "item": "Inking Supplies|InkmagusReEditedAnna",
+                                "quantity": 1
+                            },
+                            {
+                                "item": "arcane needle|InkmagusReEditedAnna",
+                                "quantity": 1
+                            },
+                            {
                                 "item": "dagger|phb",
                                 "quantity": 2 
-                            },
-                            {
-                                "item": "",
-                                "quantity": 1
-                            },
-                            {
-                                "item": "",
-                                "quantity": 1
-                            }
+                            } 
                         ]
                     }
                 ]
@@ -322,7 +315,7 @@
                     ]
                 },
                 {
-                    "title": "Tattoos Learned Per Level",
+                    "title": "Tattoos Known",
                     "colLabels": [
                         "{@filter Common|items|source=inkmagusreeditedanna|type=tattoo|rarity=common|category=}",
                         "{@filter Un common|items|source=inkmagusreeditedanna|type=tattoo|rarity=uncommon|category=}",
@@ -354,20 +347,13 @@
                         ],
                         [
                             3,
-                            2,
+                            3,
                             0,
                             0,
                             0
                         ],
                         [
                             3,
-                            2,
-                            0,
-                            0,
-                            0
-                        ],
-                        [
-                            4,
                             3,
                             0,
                             0,
@@ -376,20 +362,20 @@
                         [
                             4,
                             3,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            4,
                             2,
                             0,
                             0
                         ],
                         [
                             4,
-                            3,
-                            2,
-                            0,
-                            0
-                        ],
-                        [
                             4,
-                            3,
                             2,
                             0,
                             0
@@ -402,74 +388,81 @@
                             0
                         ],
                         [
-                            4,
+                            5,
                             4,
                             3,
-                            1,
+                            0,
                             0
                         ],
                         [
-                            4,
-                            4,
+                            5,
+                            5,
                             3,
                             2,
                             0
                         ],
                         [
-                            4,
+                            5,
+                            5,
                             4,
                             3,
-                            2,
                             0
                         ],
                         [
+                            5,
+                            5,
                             4,
-                            4,
-                            4,
-                            2,
+                            3,
                             0
                         ],
                         [
+                            5,
+                            5,
                             4,
                             4,
-                            4,
-                            3,
-                            1
+                            0
                         ],
                         [
-                            4,
-                            4,
-                            4,
-                            3,
-                            2
-                        ],
-                        [
-                            4,
-                            4,
-                            4,
-                            3,
-                            2
-                        ],
-                        [
-                            4,
-                            4,
+                            6,
+                            5,
                             4,
                             4,
                             2
                         ],
                         [
-                            4,
-                            4,
-                            4,
+                            6,
+                            6,
+                            5,
                             4,
                             3
                         ],
                         [
-                            4,
-                            4,
-                            4,
-                            4,
+                            6,
+                            6,
+                            5,
+                            5,
                             3
+                        ],
+                        [
+                            6,
+                            6,
+                            5,
+                            5,
+                            4
+                        ],
+                        [
+                            6,
+                            6,
+                            5,
+                            5,
+                            4
+                        ],
+                        [
+                            6,
+                            6,
+                            5,
+                            5,
+                            4
                         ]
                     ]
                 },
@@ -488,16 +481,7 @@
                             3
                         ],
                         [
-                            3
-                        ],
-                        [
                             4
-                        ],
-                        [
-                            4
-                        ],
-                        [
-                            5
                         ],
                         [
                             5
@@ -506,28 +490,13 @@
                             6
                         ],
                         [
-                            6
-                        ],
-                        [
-                            7
-                        ],
-                        [
                             7
                         ],
                         [
                             8
                         ],
                         [
-                            8
-                        ],
-                        [
                             9
-                        ],
-                        [
-                            9
-                        ],
-                        [
-                            10
                         ],
                         [
                             10
@@ -537,6 +506,30 @@
                         ],
                         [
                             12
+                        ],
+                        [
+                            13
+                        ],
+                        [
+                            14
+                        ],
+                        [
+                            15
+                        ],
+                        [
+                            16
+                        ],
+                        [
+                            17
+                        ],
+                        [
+                            18
+                        ],
+                        [
+                            19
+                        ],
+                        [
+                            20
                         ]
                     ]
                 }
@@ -690,8 +683,7 @@
         }
     ],
     "classFeature": [
-        {
-            "name": "Imagry",
+        {   "name": "Imagry",
             "source": "InkmagusReEditedAnna",
             "className": "Inkmagus",
             "classSource": "InkmagusReEditedAnna",
@@ -701,8 +693,7 @@
                 "You and other creatures who know this picture language can see and understand any such message in a picture. Other creatures that do not know this language can spot the message with a successful DC 15 Intelligence (History) check related to art history, but they can’t decipher it without magic."
             ]
         },
-        {
-            "name": "Inkcasting",
+        {   "name": "Inkcasting",
             "source": "InkmagusReEditedAnna",
             "className": "Inkmagus",
             "classSource": "InkmagusReEditedAnna",
@@ -731,8 +722,15 @@
                     "type": "entries",
                     "name": "Arcane Needle",
                     "entries": [
-                        "you create an Arcane Needle, a ﬁnely tuned tool that allows you to etch beautiful art on people’s skin, magical or not, You can now create magical tattoos of {@filter Common|items|source=inkmagusreeditedanna|type=tattoo|rarity=common|category=} rarity.",
-                        "to create a magical tattoo you must learn how to imbue a mundane tattoo with magical energy, the amount of magical tattoos you can learn each level is specified in the “Tattoos Learned” column of the Inkmagus table. when you create your charecter pick two tattoos of {@filter Common|items|source=inkmagusreeditedanna|type=tattoo|rarity=common|category=} rairty from the {@filter magical tattoo list|items|source=inkmagusreeditedanna|type=wondrous item;tattoo|category=} and add them to your list of tattoos known.",
+                        "you create an Arcane Needle, a ﬁnely tuned tool that allows you to etch beautiful art on people’s skin, You can now create magical tattoos of {@filter Common|items|source=inkmagusreeditedanna|type=tattoo|rarity=common|category=} rarity. to create a magical tattoo you must learn how to imbue a mundane tattoo with magical energy, the amount of magical tattoos you know each day is specified in the “Tattoos Known” column of the Inkmagus table.",
+                        "Each dawn, pick a number of tattoos equal to your “Tattoos Known” amount from the {@filter magical tattoo list|items|source=inkmagusreeditedanna|type=wondrous item;tattoo|category=} and add them to your list of tattoos known.",
+                        {
+                            "type": "inset",
+                            "name": "Tattoos Known",
+                            "entries": [
+                                "it is recommanded to have a regular list of known tattoos with general benefits and replace them if theres a better tattoo for the situation."
+                            ]
+                        },
                         "Whenever you finish a long rest, you can touch a person with your arcane needle and mark them with one of your tattoos, turning it into a magic tattoo.",
                         "Your magic tattoo remains on a person indefinitely, but when you die, the magical tattoo vanishes after a number of days have passed equal to your Intelligence modifier (minimum of 1 day).",
                         "You can tattoo more than one person at the end of a long rest; the maximum number of magical tattoos you can have on others appears in the “tattoo slots” column of the Inkmagus table. You must touch each of them with the arcane needle, and each of your tattoos can be only on one person at a time. If you try to exceed your maximum number of tattoos, the oldest tattoo immediately vanishes, and then the new tattoo applies.",
@@ -770,8 +768,7 @@
                 }
             ]
         },
-        {
-            "name": "Channel Marks (1/rest)",
+        {   "name": "Channel Marks (1/rest)",
             "source": "InkmagusReEditedAnna",
             "className": "Inkmagus",
             "classSource": "InkmagusReEditedAnna",
@@ -829,8 +826,7 @@
                 }
             ]
         },
-        {
-            "name": "Channel Marks (2/rest)",
+        {   "name": "Channel Marks (2/rest)",
             "source": "InkmagusReEditedAnna",
             "className": "Inkmagus",
             "classSource": "InkmagusReEditedAnna",
@@ -839,8 +835,7 @@
                 "Beginning at 6th level you can use your Channel Marks twice between rests."
             ]
         },
-        {
-            "name": "Channel Marks (3/rest)",
+        {   "name": "Channel Marks (3/rest)",
             "source": "InkmagusReEditedAnna",
             "className": "Inkmagus",
             "classSource": "InkmagusReEditedAnna",
@@ -849,8 +844,7 @@
                     "beginning at 18th level you can use  your Channel Marks three times between rests."
                 ]
         },
-        {
-            "name": "Otherworldly Perception",
+        {   "name": "Otherworldly Perception",
             "source": "InkmagusReEditedAnna",
             "className": "Inkmagus",
             "classSource": "InkmagusReEditedAnna",
@@ -860,19 +854,17 @@
                 "You can use this feature a number of times equal to your Intelligence modifier (a minimum of once), and you regain expended uses when you finish a short or long rest."
             ]
         },
-        {
-            "name": "Ritual Painter (1st level)",
+        {   "name": "Ritual Painter (1st level)",
             "source": "InkmagusReEditedAnna",
             "className": "Inkmagus",
             "classSource": "InkmagusReEditedAnna",
             "level": 3,
             "entries": [
-                "Also at 3rd level, you learn to use art to invoke magical rituals. You learn one 1st level spell from the {@filter inkmagus spell list|spells|class=Inkmagus (TIM)}, which you can cast as a ritual spell if you have a set of painter’s supplies or Inking supplies with you.",
+                "Also at 3rd level, you learn to use art to invoke magical rituals. You learn one 1st level spell from the {@filter inkmagus spell list|spells|class=Inkmagus (TIM)}, which you can cast as a ritual spell if you have a set of {@item Painter's Supplies|PHB} or {@item Inking supplies|InkmagusReEditedAnna} with you.",
                 "Intelligence is your spellcasting ability for this spells You gain additional rituals as you reach higher levels in this class. At 5th level you can learn one 2nd level spell from the inkmagus spell list. At 9th level you learn a 3rd level spell At 13th level you learn a 4th level spell Finally, at 17th level you can learn one 5th level spell Each of these spells you can cast as a ritual using this feature, just like the 1st level spell"
             ]
         },
-        {
-            "name": "Ritual Painter (2nd level)",
+        {   "name": "Ritual Painter (2nd level)",
             "source": "InkmagusReEditedAnna",
             "className": "Inkmagus",
             "classSource": "InkmagusReEditedAnna",
@@ -881,8 +873,7 @@
                 "You gain additional rituals as you reach higher levels in this class. At 5th level you can learn one 2nd level spell from the {@filter inkmagus spell list|spells|class=Inkmagus (TIM)}."
             ]
         },
-        {
-            "name": "Ritual Painter (3rd level)",
+        {   "name": "Ritual Painter (3rd level)",
             "source": "InkmagusReEditedAnna",
             "className": "Inkmagus",
             "classSource": "InkmagusReEditedAnna",
@@ -891,8 +882,7 @@
                 "You gain additional rituals as you reach higher levels in this class. At 9th level you can learn one 3rd level spell from the {@filter inkmagus spell list|spells|class=Inkmagus (TIM)}."
             ]
         },
-        {
-            "name": "Ritual Painter (4th level)",
+        {   "name": "Ritual Painter (4th level)",
             "source": "InkmagusReEditedAnna",
             "className": "Inkmagus",
             "classSource": "InkmagusReEditedAnna",
@@ -901,8 +891,7 @@
                "You gain additional rituals as you reach higher levels in this class. At 13th level you can learn one 4th level spell from the {@filter inkmagus spell list|spells|class=Inkmagus (TIM)}."
             ]
         },
-        {
-            "name": "Ritual Painter (5th level)",
+        {   "name": "Ritual Painter (5th level)",
             "source": "InkmagusReEditedAnna",
             "className": "Inkmagus",
             "classSource": "InkmagusReEditedAnna",
@@ -911,8 +900,7 @@
                 "You gain additional rituals as you reach higher levels in this class. At 17th level you can learn one 5th level spell from the {@filter inkmagus spell list|spells|class=Inkmagus (TIM)}."
             ]
         },
-        {
-            "name": "Ability Score Improvement",
+        {   "name": "Ability Score Improvement",
             "source": "InkmagusReEditedAnna",
             "className": "Inkmagus",
             "classSource": "InkmagusReEditedAnna",
@@ -931,8 +919,7 @@
                 }
             ]
         },
-        {
-            "name": "Ability Score Improvement",
+        {   "name": "Ability Score Improvement",
             "source": "InkmagusReEditedAnna",
             "className": "Inkmagus",
             "classSource": "InkmagusReEditedAnna",
@@ -951,8 +938,7 @@
                 }
             ]
         },
-        {
-            "name": "Ability Score Improvement",
+        {   "name": "Ability Score Improvement",
             "source": "InkmagusReEditedAnna",
             "className": "Inkmagus",
             "classSource": "InkmagusReEditedAnna",
@@ -971,8 +957,7 @@
             }
             ]
         },
-        {
-            "name": "Ability Score Improvement",
+        {   "name": "Ability Score Improvement",
             "source": "InkmagusReEditedAnna",
             "className": "Inkmagus",
             "classSource": "InkmagusReEditedAnna",
@@ -991,8 +976,7 @@
             }
             ]
         },
-        {
-            "name": "Ability Score Improvement",
+        {   "name": "Ability Score Improvement",
             "source": "InkmagusReEditedAnna",
             "className": "Inkmagus",
             "classSource": "InkmagusReEditedAnna",
@@ -1011,8 +995,7 @@
             }
             ]
         },
-        {
-            "name": "Mark of the Stars",
+        {   "name": "Mark of the Stars",
             "source": "InkmagusReEditedAnna",
             "className": "Inkmagus",
             "classSource": "InkmagusReEditedAnna",
@@ -1051,8 +1034,7 @@
             }
             ]
         },
-        {
-            "name": "Living Canvass",
+        {   "name": "Living Canvass",
             "source": "InkmagusReEditedAnna",
             "className": "Inkmagus",
             "classSource": "InkmagusReEditedAnna",
@@ -1068,8 +1050,7 @@
                 }
             ]
         },
-        {
-            "name": "Inking Specialization",
+        {   "name": "Inking Specialization",
             "source": "InkmagusReEditedAnna",
             "className": "Inkmagus",
             "classSource": "InkmagusReEditedAnna",
@@ -1078,8 +1059,7 @@
                 "At 3rd level you choose an inking Inking Specialization whose principles and forms you will follow. Each Inking Specialization is detailed at the end of the class description. The Inking Specialization you choose grants you features at 3rd level and again at 6th, 10th, 14th and 17th level"
             ]
         },
-        {
-            "name": "Specialist feature",
+        {   "name": "Specialist feature",
             "source": "InkmagusReEditedAnna",
             "className": "Inkmagus",
             "classSource": "InkmagusReEditedAnna",
@@ -1088,8 +1068,7 @@
                 "At 6th level, you gain a feature granted by your Inking Specialization."
             ]
         },
-        {
-            "name": "Specialist feature",
+        {   "name": "Specialist feature",
             "source": "InkmagusReEditedAnna",
             "className": "Inkmagus",
             "classSource": "InkmagusReEditedAnna",
@@ -1098,8 +1077,7 @@
                 "At 10th level, you gain a feature granted by your Inking Specialization."
             ]
         },
-        {
-            "name": "Specialist feature",
+        {   "name": "Specialist feature",
             "source": "InkmagusReEditedAnna",
             "className": "Inkmagus",
             "classSource": "InkmagusReEditedAnna",
@@ -1108,8 +1086,7 @@
                 "At 14th level, you gain a feature granted by your Inking Specialization."
             ]
         },
-        {
-            "name": "Specialist feature",
+        {   "name": "Specialist feature",
             "source": "InkmagusReEditedAnna",
             "className": "Inkmagus",
             "classSource": "InkmagusReEditedAnna",
@@ -1119,9 +1096,41 @@
             ]
         }
     ],
+    "subclass": [
+            {
+                "name": "Tatto Artist Specialist",
+                "source": "InkmagusReEditedAnna",
+                "shortName": "Artist",
+                "subclassSpells": [
+                    "find familiar",
+                    "illusory script",
+                    "augury",
+                    "skywrite",
+                    "phantom steed",
+                    "Leomund’s Tiny Hut",
+                    "Find Greater Steed",
+                    "Galder’s Speedy Courier",
+                    "Rary’s Telepathic Bond",
+                    "Seeming"
+                ],
+                "subclassFeatures": [
+                    "Tattoo Artist Specialist|Inkmagus|InkmagusReEditedAnna|Artist|InkmagusReEditedAnna|3",
+                    "Art in Violance|Inkmagus|InkmagusReEditedAnna|Artist|InkmagusReEditedAnna|3",
+                    "Tattoo Artist Spells|Inkmagus|InkmagusReEditedAnna|Artist|InkmagusReEditedAnna|3",
+                    "Improved Arcane Needle|Inkmagus|InkmagusReEditedAnna|Artist|InkmagusReEditedAnna|3",
+                    "Channel Marks: Rush of Battle|Inkmagus|InkmagusReEditedAnna|Artist|InkmagusReEditedAnna|3",
+                    "Steel Stinger|Inkmagus|InkmagusReEditedAnna|Artist|InkmagusReEditedAnna|6",
+                    "Ink Barrier|Inkmagus|InkmagusReEditedAnna|Artist|InkmagusReEditedAnna|10",
+                    "Channel Marks: Seal Spell|Inkmagus|InkmagusReEditedAnna|Artist|InkmagusReEditedAnna|10",
+                    "Mighty Brand|Inkmagus|InkmagusReEditedAnna|Artist|InkmagusReEditedAnna|14",
+                    "Mark of Blades|Inkmagus|InkmagusReEditedAnna|Artist|InkmagusReEditedAnna|17"
+                ],
+                "className": "Inkmagus",
+                "classSource": "InkmagusReEditedAnna"
+            }
+    ],
     "subclassFeature": [
-        {
-            "name": "Tattoo Artist Specialist",
+        {   "name": "Tattoo Artist Specialist",
             "source": "InkmagusReEditedAnna",
             "className": "Inkmagus",
             "classSource": "InkmagusReEditedAnna",
@@ -1132,8 +1141,7 @@
                 "You have focused your efforts twards helping people with your skills and learned how to imbue your tattoos with more potent magical energy. you also discovered that your arcane needle can do more than just ink."
             ]
         },
-        {
-            "name": "Art in Violance",
+        {   "name": "Art in Violance",
             "source": "InkmagusReEditedAnna",
             "className": "Inkmagus",
             "classSource": "InkmagusReEditedAnna",
@@ -1144,8 +1152,7 @@
                 "When you adopt this specialty at 3rd level, you gain proficiency with light armor, Additionally you gain proficiency with the Sleight of Hand skill, Finally, you gain proficiency with Painter’s supplies."
             ]
         },
-        {
-            "name": "Tattoo Artist Spells",
+        {   "name": "Tattoo Artist Spells",
             "source": "InkmagusReEditedAnna",
             "className": "Inkmagus",
             "classSource": "InkmagusReEditedAnna",
@@ -1168,30 +1175,29 @@
                     "rows": [
                         [
                             "3rd",
-                            "{@spell find familiar}, {@spell illusory script}"
+                            "{@spell find familiar|PHB}, {@spell illusory script|PHB}"
                         ],
                         [
                             "5th",
-                            "{@spell augury}, {@spell skywrite}"
+                            "{@spell augury|PHB}, {@spell Skywrite|XGE}"
                         ],
                         [
                             "9th",
-                            "{@spell phantom steed}, {@spell Leomund’s Tiny Hut}"
+                            "{@spell Phantom Steed|PHB}, {@spell Leomund's Tiny Hut|PHB}"
                         ],
                         [
                             "13th",
-                            "{@spell Find Greater Steed}, {@spell Galder’s Speedy Courier}"
+                            "{@spell Find Greater Steed|XGE}, {@spell Galder's Speedy Courier|LLK}"
                         ],
                         [
                             "17th",
-                            "{@spell Rary’s Telepathic Bond}, {@spell Seeming}"
+                            "{@spell Rary's Telepathic Bond|PHB}, {@spell Seeming|PHB}"
                         ]
                     ]
                 }
             ]
         },
-        {
-            "name": "Improved Arcane Needle",
+        {   "name": "Improved Arcane Needle",
             "source": "InkmagusReEditedAnna",
             "className": "Inkmagus",
             "classSource": "InkmagusReEditedAnna",
@@ -1204,8 +1210,7 @@
                 "Additionally, you can mark your own skin with an {@filter uncommon|items|source=inkmagusreeditedanna|type=tattoo|rarity=uncommon|category=} magical tattoo without having to spend a tattoo slot."
             ]
         },
-        {
-            "name": "Channel Marks: Rush of Battle",
+        {   "name": "Channel Marks: Rush of Battle",
             "source": "InkmagusReEditedAnna",
             "className": "Inkmagus",
             "classSource": "InkmagusReEditedAnna",
@@ -1213,14 +1218,14 @@
             "subclassSource": "InkmagusReEditedAnna",
             "level": 3,
             "entries": [
-                "Also at 3rd level you can imbue your tattoos with passion-filled energy to empower you to greater feats of violence. For 1 minute you gain the following benefits:",
+                "Also at 3rd level you can imbue your tattoos with passion-filled energy to empower you to greater feats of strengh. For 1 minute you gain the following benefits:",
                 {
                     "type": "list",
                     "name": "",
                     "items": [
                         "Your AC increases by half your proficiency bonus (rounded down), as long as you are not wearing medium or heavy armour.",
 
-                        "Once per turn, when you hit a creature with a weapon attack using a ranged weapon or a weapon with the finesse property, you can deal an additional ld6 damage with that attack.",
+                        "Once per turn, when you hit a creature with a weapon attack using a ranged weapon or a weapon with the finesse property, you can deal an additional {@dice 1d6} damage with that attack.",
 
                         "Your base walking speed increases by 10 feet."
                     ]
@@ -1228,8 +1233,7 @@
                 "When this effect on you ends, you are winded until the end of your next turn. While winded, your movement speed is halved, and you can’t take reactions."
                 ] 
         },
-        {
-            "name": "Steel Stinger",
+        {   "name": "Steel Stinger",
             "source": "InkmagusReEditedAnna",
             "className": "Inkmagus",
             "classSource": "InkmagusReEditedAnna",
@@ -1237,13 +1241,12 @@
             "subclassSource": "InkmagusReEditedAnna",
             "level": 6,
             "entries": [
-                "At 6th level, you adapt your Arcane Needle for more offensive purposes and it counts as a magical weapon for the porpuse of overcoming resistence and you are proficent with it. As an action you can make a melee or ranged spell attack with the arcane needle, when you do so use your intelligence modifier for the attack and damage, on a hit deal your luck die type times 1.5(rounded up) as piercing damage.",
-
-                "Additionally When you cast an Inkmagus spell through the stinger, roll your luck die, and you gain bonus to one of the spell’s damage rolls equal to the number rolled. If the spell affects multiple creatures, one creature of your choice takes the bonus damage."
+                "At 6th level, you adopt your {@item arcane needle|InkmagusReEditedAnna|Arcane Needle} for more offensive purposes and it counts as a magical weapon for the porpuse of overcoming resistence and you are proficent with it. while in combat the needle floats around you and you can direct it to attack.",
+                "As an action you can make a melee or ranged spell attack with the arcane needle, when you do so use your intelligence modifier for the attack and damage, on a hit deal your {@table Luck Die|InkmagusReEditedAnna} type as piercing damage.",
+                "Additionally When you cast an Inkmagus spell through the stinger, roll your {@table Luck Die|InkmagusReEditedAnna}, and you gain bonus to one of the spell’s damage rolls equal to the number rolled. If the spell affects multiple creatures, one creature of your choice takes the bonus damage."
             ]
         },
-        {
-            "name": "Ink Barrier",
+        {   "name": "Ink Barrier",
             "source": "InkmagusReEditedAnna",
             "className": "Inkmagus",
             "classSource": "InkmagusReEditedAnna",
@@ -1254,8 +1257,7 @@
                 "At 10th level as a bonus action, a creature bearing a magical tattoo created through your Arcane Needle can produce a magical barrier, gaining a number of temporary hit points equal to your Intelligence modifier + half your Inkmagus level. Once a creature uses this ability, it cannot use it again until it finishes a long rest. additionally, you can mark your own skin with a rare magical tattoo without having to spend a tattoo slot."
             ]
         },
-        {
-            "name": "Channel Marks: Seal Spell",
+        {   "name": "Channel Marks: Seal Spell",
             "source": "InkmagusReEditedAnna",
             "className": "Inkmagus",
             "classSource": "InkmagusReEditedAnna",
@@ -1263,15 +1265,14 @@
             "subclassSource": "InkmagusReEditedAnna",
             "level": 10,
             "entries": [
-                "At 10th level you can imbue your tattoos with mystic energy to capture enemy magic. When you are targeted by a spell with a level less than or equal to your Intelligence modifier (a minimum of 1st level), you can use your reaction to expend one use of your Channel Marks to create a new, temporary tattoo on your body which duplicates that spell",
+                "At 10th level you can imbue your tattoos with mystic energy to capture enemy magic. When you or an ally within 10 feet are targeted by a spell with a level less than or equal to your Intelligence modifier (a minimum of 1st level), you can use your reaction to expend one use of your Channel Marks to create a new, temporary tattoo on your body which duplicates that spell",
 
                 "You can invoke your new tattoo to cast the spell you duplicated, using your inkmagus spellcasting ability. Once you invoke the tattoo, the tattoo disappears.",
 
                 "You can only have up to three such tattoos at a time. Each tattoo lasts a number of days equal to your proficiency bonus, before fading if it has not been invoked."
             ]
         },
-        {
-            "name": "Mighty Brand",
+        {   "name": "Mighty Brand",
             "source": "InkmagusReEditedAnna",
             "className": "Inkmagus",
             "classSource": "InkmagusReEditedAnna",
@@ -1283,8 +1284,7 @@
                 "Additionally, you can mark your own skin with a legendary magical tattoo without having to spend a tattoo slot."
             ]
         },
-        {
-            "name": "Mark of Blades",
+        {   "name": "Mark of Blades",
             "source": "InkmagusReEditedAnna",
             "className": "Inkmagus",
             "classSource": "InkmagusReEditedAnna",
@@ -1324,42 +1324,8 @@
             ]
         }
     ],
-    "subclass": [
-        {
-            "name": "Tatto Artist Specialist",
-            "source": "InkmagusReEditedAnna",
-            "shortName": "Artist",
-            "subclassSpells": [
-                "find familiar",
-                "illusory script",
-                "augury",
-                "skywrite",
-                "phantom steed",
-                "Leomund’s Tiny Hut",
-                "Find Greater Steed",
-                "Galder’s Speedy Courier",
-                "Rary’s Telepathic Bond",
-                "Seeming"
-            ],
-            "subclassFeatures": [
-                "Tattoo Artist Specialist|Inkmagus|InkmagusReEditedAnna|Artist|InkmagusReEditedAnna|3",
-                "Art in Violance|Inkmagus|InkmagusReEditedAnna|Artist|InkmagusReEditedAnna|3",
-                "Tattoo Artist Spells|Inkmagus|InkmagusReEditedAnna|Artist|InkmagusReEditedAnna|3",
-                "Improved Arcane Needle|Inkmagus|InkmagusReEditedAnna|Artist|InkmagusReEditedAnna|3",
-                "Channel Marks: Rush of Battle|Inkmagus|InkmagusReEditedAnna|Artist|InkmagusReEditedAnna|3",
-                "Steel Stinger|Inkmagus|InkmagusReEditedAnna|Artist|InkmagusReEditedAnna|6",
-                "Ink Barrier|Inkmagus|InkmagusReEditedAnna|Artist|InkmagusReEditedAnna|10",
-                "Channel Marks: Seal Spell|Inkmagus|InkmagusReEditedAnna|Artist|InkmagusReEditedAnna|10",
-                "Mighty Brand|Inkmagus|InkmagusReEditedAnna|Artist|InkmagusReEditedAnna|14",
-                "Mark of Blades|Inkmagus|InkmagusReEditedAnna|Artist|InkmagusReEditedAnna|17"
-            ],
-            "className": "Inkmagus",
-            "classSource": "InkmagusReEditedAnna"
-        }
-    ],
     "item": [
-        {
-            "name": "Abyssal Whip Tattoo",
+        {   "name": "Abyssal Whip Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -1379,8 +1345,7 @@
 
             ]
         },
-        {
-            "name": "Bloodhound Tattto",
+        {   "name": "Bloodhound Tattto",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -1400,8 +1365,7 @@
                 }
             ]
         },
-        {
-            "name": "Cartoonist's Tattoo",
+        {   "name": "Cartoonist's Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -1428,8 +1392,7 @@
                 }
             ]
         },
-        {
-            "name": "Dancing Tattoo",
+        {   "name": "Dancing Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -1450,8 +1413,7 @@
                 }
             ]
         },
-        {
-            "name": "Eldritch Claw Tattoo",
+        {   "name": "Eldritch Claw Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -1470,8 +1432,7 @@
                 }
             ]
         },
-        {
-            "name": "Hawk Lock Tattoo",
+        {   "name": "Hawk Lock Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -1492,8 +1453,7 @@
                 }
             ]
         },
-        {
-            "name": "Illuminatior's Tattoo",
+        {   "name": "Illuminatior's Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -1513,8 +1473,7 @@
                 }
             ]
         },
-        {
-            "name": "Masquerade Tattoo",
+        {   "name": "Masquerade Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -1540,8 +1499,7 @@
                 }
             ]
         },
-        {
-            "name": "Prismtic Tattoo",
+        {   "name": "Prismtic Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -1566,8 +1524,7 @@
                 }
             ]
         },
-        {
-            "name": "Spellwrought Tattoo",
+        {   "name": "Spellwrought Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -1603,8 +1560,7 @@
                 }
             ]
         },
-        {
-            "name": "Vision of Argus Tattoo",
+        {   "name": "Vision of Argus Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -1625,8 +1581,7 @@
                 }
             ]
         },
-        {
-            "name": "Writhing Grasp Tattoo",
+        {   "name": "Writhing Grasp Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -1647,8 +1602,7 @@
                 }
             ]
         },
-        {
-            "name": "Wild Tattoo",
+        {   "name": "Wild Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -1661,13 +1615,12 @@
                     "type": "entries",
                     "name": "Wild enchantment",
                     "entries": [
-                        "Roll on the --- table and the --- table to find out what enchantments it has today"
+                        "Roll on the {@table Minor Magical Properties|InkmagusReEditedAnna} table and the {@table Advantageous Enchantments|InkmagusReEditedAnna} table to find out what enchantments it has today"
                     ]
                 }
             ]
         },
-        {
-            "name": "Angel Tattoo (common)",
+        {   "name": "Angel Tattoo (common)",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -1685,8 +1638,7 @@
                 }
             ]
         },
-        {
-            "name": "Bear Tattoo (common)",
+        {   "name": "Bear Tattoo (common)",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -1704,8 +1656,7 @@
                 }
             ]
         },
-        {
-            "name": "Chameleon Tattoo (common)",
+        {   "name": "Chameleon Tattoo (common)",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -1723,8 +1674,7 @@
                 }
             ]
         },
-        {
-            "name": "Cobra Tattoo (common)",
+        {   "name": "Cobra Tattoo (common)",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -1742,8 +1692,7 @@
                 }
             ]
         },
-        {
-            "name": "Dolphin Tattoo",
+        {   "name": "Dolphin Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -1761,8 +1710,7 @@
                 }
             ]
         },
-        {
-            "name": "Dragon Tattoo (common)",
+        {   "name": "Dragon Tattoo (common)",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -1835,8 +1783,7 @@
                 }
             ]
         },
-        {
-            "name": "Eagle Tattoo (common)",
+        {   "name": "Eagle Tattoo (common)",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -1854,8 +1801,7 @@
                 }
             ]
         },
-        {
-            "name": "Kingfisher Tattoo (common)",
+        {   "name": "Kingfisher Tattoo (common)",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -1873,8 +1819,7 @@
                 }
             ]
         },
-        {
-            "name": "Mermaid Tattoo (common)",
+        {   "name": "Mermaid Tattoo (common)",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -1892,8 +1837,7 @@
                 }
             ]
         },
-        {
-            "name": "Monkey Tattoo (common)",
+        {   "name": "Monkey Tattoo (common)",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -1911,8 +1855,7 @@
                 }
             ]
         },
-        {
-            "name": "Owl Tattoo (common)",
+        {   "name": "Owl Tattoo (common)",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -1930,8 +1873,7 @@
                 }
             ]
         },
-        {
-            "name": "Panther Tattoo (common)",
+        {   "name": "Panther Tattoo (common)",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -1949,8 +1891,7 @@
                 }
             ]
         },
-        {
-            "name": "Phoenix Tattoo (common)",
+        {   "name": "Phoenix Tattoo (common)",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -1968,8 +1909,7 @@
                 }
             ]
         },
-        {
-            "name": "Tiger Tattoo (common)",
+        {   "name": "Tiger Tattoo (common)",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -1987,8 +1927,7 @@
                 }
             ]
         },
-        {
-            "name": "Unicorn Tattoo (common)",
+        {   "name": "Unicorn Tattoo (common)",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2001,13 +1940,12 @@
                     "type": "entries",
                     "name": "Celestial Shield.",
                     "entries": [
-                        "You can cast shield of faith on yourself, without components. Once used, this feature can't be used again until you finish a short or long rest."
+                        "You can cast {@spell Shield of Faith|PHB}  on yourself, without components. Once used, this feature can't be used again until you finish a short or long rest."
                     ]
                 }
             ]
         },
-        {
-            "name": "Wolf Tattoo (common)",
+        {   "name": "Wolf Tattoo (common)",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2025,8 +1963,7 @@
                 }
             ]
         },
-        {
-            "name": "Angelwings Tattoo",
+        {   "name": "Angelwings Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2045,8 +1982,7 @@
                 }
             ]
         },
-        {
-            "name": "Gambler's Friend Tattoo",
+        {   "name": "Gambler's Friend Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2071,8 +2007,7 @@
                 }
             ]
         },
-        {
-            "name": "Knifedancer Tattoo",
+        {   "name": "Knifedancer Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2084,7 +2019,7 @@
                 {
                     "type": "entries",
                     "entries": [
-                        "While it's on your skin, you can use a bonus action to create a spectral dagger in each hand for 1 minute, These daggers are magical.",
+                        "While it's on your skin, you can use a bonus action to create a {@item spectral dagger +1|InkmagusReEditedAnna|spectral dagger} in each hand for 1 minute, These daggers are magical.",
                         "for the duration attacks made with these daggers gain +1 bonus to attack and damage rolls.",
                         "additonally,for the duration, if you throw the daggers they return to your hands at the end of your turn.",
                         "Once used, this bonus action can’t be used again until the next dawn."
@@ -2092,8 +2027,7 @@
                 }
             ]
         },
-        {
-            "name": "Barrier Tattoo (common)",
+        {   "name": "Barrier Tattoo (uncommon)",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2112,8 +2046,7 @@
                 }
             ]
         },
-        {
-            "name": "Eldritch Whip Tattoo",
+        {   "name": "Eldritch Whip Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2140,8 +2073,7 @@
                 }
             ]
         },
-        {
-            "name": "Coiling Grasp Tattoo",
+        {   "name": "Coiling Grasp Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2162,8 +2094,7 @@
                 }
             ]
         },
-        {
-            "name": "Container Tattoo",
+        {   "name": "Container Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2182,8 +2113,7 @@
                 }
             ]
         },
-        {
-            "name": "Ghastly Gaze Tattoo",
+        {   "name": "Ghastly Gaze Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2211,8 +2141,7 @@
                 }
             ]
         },
-        {
-            "name": "Improved Hawk Lock Tattoo",
+        {   "name": "Improved Hawk Lock Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2233,8 +2162,7 @@
                 }
             ]
         },
-        {
-            "name": "Lifewell Tattoo",
+        {   "name": "Lifewell Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2252,8 +2180,7 @@
                 }
             ]
         },
-        {
-            "name": "Mooring Tattoo",
+        {   "name": "Mooring Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2278,8 +2205,7 @@
                 }
             ]
         },
-        {
-            "name": "Veil Tattoo",
+        {   "name": "Veil Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2304,8 +2230,7 @@
                 }
             ]
         },
-        {
-            "name": "Angel Tattoo (uncommon)",
+        {   "name": "Angel Tattoo (uncommon)",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2318,13 +2243,12 @@
                     "type": "entries",
                     "name": "Celestial Sense.",
                     "entries": [
-                        "You may cast detect good or evil without using a spell slot. You must complete a short rest before using this ability again."
+                        "You may cast {@spell Detect Evil and Good|PHB} without using a spell slot. You must complete a short rest before using this ability again."
                     ]
                 }
             ]
         },
-        {
-            "name": "Bear Tattoo (uncommon)",
+        {   "name": "Bear Tattoo (uncommon)",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2342,8 +2266,7 @@
                 }
             ]
         },
-        {
-            "name": "Chameleon Tattoo (uncommon)",
+        {   "name": "Chameleon Tattoo (uncommon)",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2361,8 +2284,7 @@
                 }
             ]
         },
-        {
-            "name": "Cobra Tattoo (uncommon)",
+        {   "name": "Cobra Tattoo (uncommon)",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2380,8 +2302,7 @@
                 }
             ]
         },
-        {
-            "name": "Dragon Tattoo (uncommon)",
+        {   "name": "Dragon Tattoo (uncommon)",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2399,8 +2320,7 @@
                 }
             ]
         },
-        {
-            "name": "Eagle Tattoo (uncommon)",
+        {   "name": "Eagle Tattoo (uncommon)",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2418,8 +2338,7 @@
                 }
             ]
         },
-        {
-            "name": "Kingfisher Tattoo (uncommon)",
+        {   "name": "Kingfisher Tattoo (uncommon)",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2437,8 +2356,7 @@
                 }
             ]
         },
-        {
-            "name": "Mermaid Tattoo (uncommon)",
+        {   "name": "Mermaid Tattoo (uncommon)",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2456,8 +2374,7 @@
                 }
             ]
         },
-        {
-            "name": "Monkey Tattoo (uncommon)",
+        {   "name": "Monkey Tattoo (uncommon)",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2475,8 +2392,7 @@
                 }
             ]
         },
-        {
-            "name": "Owl Tattoo (uncommon)",
+        {   "name": "Owl Tattoo (uncommon)",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2489,13 +2405,12 @@
                     "type": "entries",
                     "name": "Owl Shape.",
                     "entries": [
-                        "As an action you may transform into an owl. You may talk while in animal shape and cast spells that don't require somatic or material components, otherwise this feature is governed by the same rules as the druid's Wild Shape ability. You may stay in owl form for as long as you wish, reverting to your normal form by spending an action. Once you've reverted back to your normal form, you cannot use this ability again until you finish a short or long rest."
+                        "As an action you may transform into an {@creature Owl|MM} or a {@creature Giant Owl|MM}. You may talk while in animal shape and cast spells that don't require somatic or material components, otherwise this feature is governed by the same rules as the druid's Wild Shape ability. You may stay in owl form for as long as you wish, reverting to your normal form by spending an action. Once you've reverted back to your normal form, you cannot use this ability again until you finish a short or long rest."
                     ]
                 }
             ]
         },
-        {
-            "name": "Panther Tattoo (uncommon)",
+        {   "name": "Panther Tattoo (uncommon)",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2513,8 +2428,7 @@
                 }
             ]
         },
-        {
-            "name": "Phoenix Tattoo (uncommon)",
+        {   "name": "Phoenix Tattoo (uncommon)",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2532,8 +2446,7 @@
                 }
             ]
         },
-        {
-            "name": "Tiger Tattoo (uncommon)",
+        {   "name": "Tiger Tattoo (uncommon)",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2551,8 +2464,7 @@
                 }
             ]
         },
-        {
-            "name": "Unicorn Tattoo (uncommon)",
+        {   "name": "Unicorn Tattoo (uncommon)",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2570,8 +2482,7 @@
                 }
             ]
         },
-        {
-            "name": "Wolf Tattoo (uncommon)",
+        {   "name": "Wolf Tattoo (uncommon)",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2589,8 +2500,7 @@
                 }
             ]
         },
-        {
-            "name": "Angel Tattoo",
+        {   "name": "Angel Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2602,8 +2512,7 @@
                 "{@item Angel Tattoo (uncommon)|InkmagusReEditedAnna}"
             ]
         },
-        {
-            "name": "Bear Tattoo",
+        {   "name": "Bear Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2615,8 +2524,7 @@
                 "{@item Bear Tattoo (uncommon)|InkmagusReEditedAnna}"
             ]
         },
-        {
-            "name": "Chameleon Tattoo",
+        {   "name": "Chameleon Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2627,8 +2535,7 @@
                 "{@item Chameleon Tattoo (uncommon)|InkmagusReEditedAnna}"
             ]
         },
-        {
-            "name": "Cobra Tattoo",
+        {   "name": "Cobra Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2639,8 +2546,7 @@
                 "{@item Cobra Tattoo (uncommon)|InkmagusReEditedAnna}"
             ]
         },
-        {
-            "name": "Dragon Tattoo",
+        {   "name": "Dragon Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2651,8 +2557,7 @@
                 "{@item Dragon Tattoo (uncommon)|InkmagusReEditedAnna}"
             ]
         },
-        {
-            "name": "Eagle Tattoo",
+        {   "name": "Eagle Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2663,8 +2568,7 @@
                 "{@item Eagle Tattoo (uncommon)|InkmagusReEditedAnna}"
             ]
         },
-        {
-            "name": "Kingfisher Tattoo",
+        {   "name": "Kingfisher Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2675,8 +2579,7 @@
                 "{@item Kingfisher Tattoo (uncommon)|InkmagusReEditedAnna}"
             ]
         },
-        {
-            "name": "Mermaid Tattoo",
+        {   "name": "Mermaid Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2687,8 +2590,7 @@
                 "{@item Mermaid Tattoo (uncommon)|InkmagusReEditedAnna}"
             ]
         },
-        {
-            "name": "Monkey Tattoo",
+        {   "name": "Monkey Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2699,8 +2601,7 @@
                 "{@item Monkey Tattoo (uncommon)|InkmagusReEditedAnna}"
             ]
         },
-        {
-            "name": "Owl Tattoo",
+        {   "name": "Owl Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2711,8 +2612,7 @@
                 "{@item Owl Tattoo (uncommon)|InkmagusReEditedAnna}"
             ]
         },
-        {
-            "name": "Panther Tattoo",
+        {   "name": "Panther Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2723,8 +2623,7 @@
                 "{@item Panther Tattoo (uncommon)|InkmagusReEditedAnna}"
             ]
         },
-        {
-            "name": "Phoenix Tattoo",
+        {   "name": "Phoenix Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2735,8 +2634,7 @@
                 "{@item Phoenix Tattoo (uncommon)|InkmagusReEditedAnna}"
             ]
         },
-        {
-            "name": "Tiger Tattoo",
+        {   "name": "Tiger Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2747,8 +2645,7 @@
                 "{@item Tiger Tattoo (uncommon)|InkmagusReEditedAnna}"
             ]
         },
-        {
-            "name": "Unicorn Tattoo",
+        {   "name": "Unicorn Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2759,8 +2656,7 @@
                 "{@item Unicorn Tattoo (uncommon)|InkmagusReEditedAnna}"
             ]
         },
-        {
-            "name": "Wolf Tattoo",
+        {   "name": "Wolf Tattoo",
             "source": "InkmagusReEditedAnna",
             "wondrous": true,
             "tattoo": true,
@@ -2770,11 +2666,129 @@
                 "{@item Wolf Tattoo (common)|InkmagusReEditedAnna}",
                 "{@item Wolf Tattoo (uncommon)|InkmagusReEditedAnna}"
             ]
+        },
+        {   "name": "spectral dagger +1",
+            "source": "InkmagusReEditedAnna",
+            "rarity": "uncommon",
+            "baseItem": "dagger|PHB",
+            "type": "M",
+            "weaponCategory": "simple",
+            "bonusWeapon": "+1",
+            "property": [
+                "L","F","T"
+            ],
+            "range": "20/60",
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "entries": [
+                "{@note These daggers are aquired by using the {@item Knifedancer Tattoo|InkmagusReEditedAnna}.}",
+                "You have a +1 bonus to attack and damage rolls made with this dagger, if you throw the daggers they return to your hands at the end of your turn."
+            ]
+        },
+        {   "name": "arcane needle",
+            "source": "InkmagusReEditedAnna",
+            "rarity": "uncommon",
+            "type": "M",
+            "typeAlt": "R",
+            "weaponCategory": "martial",
+            "bonusWeapon": "+1",
+            "property": [
+                "T"
+            ],
+            "range": "20/60",
+            "dmgType": "P",
+            "entries": [
+                "{@note This item is aquired by getting the {@classFeature Steel Stinger|InkmagusReEditedAnna} Artist Subclass feature}",
+                "This needle floats around you until you order it to attack.",
+                "You have a +1 bonus to attack and damage rolls made with this needle and the damage die is determined by your luck die level as shown below:",
+                {
+                    "type": "table",
+                    "caption": "Luck Die",
+                    "colLabels": [
+                        "InkMagus Level",
+                        "Die Type"
+                    ],
+                    "colStyles": [
+                        "col-3 text-center",
+                        "col-3 text-center"
+                    ],
+                    "rows": [
+                        [
+                            "2nd",
+                            "{@dice 1d4}"
+                        ],
+                        [
+                            "5th",
+                            "{@dice 1d6}"
+                        ],
+                        [
+                            "8th",
+                            "{@dice 1d8}"
+                        ],
+                        [
+                            "11th",
+                            "{@dice 1d10}"
+                        ],
+                        [
+                            "14th",
+                            "{@dice 1d12}"
+                        ],
+                        [
+                            "17th",
+                            "{@dice 2d6}"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {   "name": "Inking Supplies",
+            "source": "InkmagusReEditedAnna",
+            "type": "AT",
+            "rarity": "none",
+            "weight": 6,
+            "value": 4500,
+            "additionalEntries": [
+                "Tattooist’s tools allow one creature to tattoo the epidermal layer (skin, scales, fur, feathers, etc.) of themselves or another creature. Proficiency in these tools increases the odds of a tattoo appearing as intended.",
+                {
+                    "type": "entries",
+                    "name": "Components",
+                    "entries": [
+                        "Tattooist’s tools consist of small, sharpened, animal bones, pigments derived from plants and insects, {@item Ink (1-ounce bottle)|PHB}, 10 feet of {@item Hempen Rope (50 feet)|PHB|hempen rope}, and a {@item Healer's Kit|PHB}."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Skills",
+                    "entries": [
+                        " If you are proficient in tattooist’s tools, you can use them (with your DM’s permission) to gain advantage on the following skill checks under certain circumstances relevant to tattoos. Each skill listed has a general description meant to inspire you using these tools in this way.",
+                        {
+                            "type": "list",
+                            "items": [
+                                "{@b Arcana.} Proficiency in tattooist’s tools can help you determine a magical tattoo or marking’s properties If you have proficiency in the Arcana skill along with tattooist’s tools. you can also give the help action to anyone making the check even if you don't have proficiency",
+                                "{@b History.} Though tattooist’s tools cannot help translate or decipher language, proficiency in them can assist you in learning the age and origin of a tattoo.",
+                                "{@b Insight/Investigation.} A creature’s tattoos say a lot about them. When seeing a tattoo on a creature, proficiency in tattooist’s tools can help you more easily learn the meanings behind certain symbols, creatures, or other commonly used markings in tattoos."
+                            ]
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                
+                            ]
+                        },
+                        {
+                            "type": "list",
+
+                            "items": [
+                               
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ],
     "feat": [
-        {
-            "name": "Ankle Wings",
+        {   "name": "Ankle Wings",
             "source": "InkmagusReEditedAnna",
             "prerequisite": [
                 {
@@ -2794,7 +2808,7 @@
                     "type": "list",
                     "items": [
                         "Your base walking speed is increased by 10 feet.",
-                        "You can invoke this tattoo to cast the expeditious retreat spell targeting yourself at will."
+                        "You can invoke this tattoo to cast the {@spell Expeditious Retreat|PHB} spell targeting yourself at will."
                     ]
                 }
                 
@@ -2802,8 +2816,7 @@
             ]
             
         },
-        {
-            "name": "Armour of the Tortoise",
+        {   "name": "Armour of the Tortoise",
             "source": "InkmagusReEditedAnna",
             "prerequisite": [
                 {
@@ -2827,8 +2840,7 @@
                 }
             ]
         },
-        {
-            "name": "Beast Tongue",
+        {   "name": "Beast Tongue",
             "source": "InkmagusReEditedAnna",
             "prerequisite": [
                 {
@@ -2848,13 +2860,12 @@
                     "type": "list",
                     "items": [
                         "You have advantage on Charisma checks made to interact with beasts of size Medium or larger.",
-                        "You can invoke this tattoo to cast the speak with animals spell at will"
+                        "You can invoke this tattoo to cast the {@spell Speak with Animals|PHB} spell at will"
                     ]
                 }
             ]
         },
-        {
-            "name": "Eyes of Night",
+        {   "name": "Eyes of Night",
             "source": "InkmagusReEditedAnna",
             "prerequisite": [
                 {
@@ -2878,8 +2889,7 @@
                 }
             ]
         },
-        {
-            "name": "Eyes of the Otherworld",
+        {   "name": "Eyes of the Otherworld",
             "source": "InkmagusReEditedAnna",
             "prerequisite": [
                 {
@@ -2899,13 +2909,12 @@
                     "type": "list",
                     "items": [
                         "You gain proficiency in the Insight skill if you did not already have it.",
-                        "You can invoke this tattoo to cast the detect evil and good spell at will"
+                        "You can invoke this tattoo to cast the {@spell Detect Evil and Good|PHB} spell at will"
                     ]
                 }
             ]
         },
-        {
-            "name": "Eyes of the Weave",
+        {   "name": "Eyes of the Weave",
             "source": "InkmagusReEditedAnna",
             "prerequisite": [
                 {
@@ -2925,13 +2934,12 @@
                     "type": "list",
                     "items": [
                         "You gain proficiency in the Arcana skill if you did not already have it.",
-                        "You can invoke this tattoo to cast the detect magic spell at will"
+                        "You can invoke this tattoo to cast the {@spell Detect Magic|PHB} spell at will"
                     ]
                 }
             ]
         },
-        {
-            "name": "Eyes of the Word",
+        {   "name": "Eyes of the Word",
             "source": "InkmagusReEditedAnna",
             "prerequisite": [
                 {
@@ -2951,13 +2959,12 @@
                     "type": "list",
                     "items": [
                         "You learn one additional language of your choice.",
-                        "You can invoke this tattoo to cast comprehend languages at will"
+                        "You can invoke this tattoo to cast {@spell Comprehend Languages|PHB} at will"
                     ]
                 }
             ]
         },
-        {
-            "name": "Forest Print",
+        {   "name": "Forest Print",
             "source": "InkmagusReEditedAnna",
             "prerequisite": [
                 {
@@ -2982,8 +2989,7 @@
                 }
             ]
         },
-        {
-            "name": "Keepsafe",
+        {   "name": "Keepsafe",
             "source": "InkmagusReEditedAnna",
             "prerequisite": [
                 {
@@ -3011,8 +3017,7 @@
                 }
             ]
         },
-        {
-            "name": "Pierced Vigour",
+        {   "name": "Pierced Vigour",
             "source": "InkmagusReEditedAnna",
             "prerequisite": [
                 {
@@ -3032,13 +3037,12 @@
                     "type": "list",
                     "items": [
                         "Whenever you would gain temporary hit points, gain that number of temporary hit points + 1.",
-                        "You can invoke this tattoo to cast the false life spell at 1st level at will without material components"
+                        "You can invoke this tattoo to cast the {@spell False Life|PHB} spell at 1st level at will without material components"
                     ]
                 }
             ]
         },
-        {
-            "name": "Sight Thief",
+        {   "name": "Sight Thief",
             "source": "InkmagusReEditedAnna",
             "prerequisite": [
                 {
@@ -3065,8 +3069,7 @@
                 }
             ]
         },
-        {
-            "name": "The Faceless",
+        {   "name": "The Faceless",
             "source": "InkmagusReEditedAnna",
             "prerequisite": [
                 {
@@ -3086,13 +3089,12 @@
                     "type": "list",
                     "items": [
                         "You gain proficiency with the Deception skill, if you do not already have it.",
-                        "You can invoke this tattoo to cast the disguise self spell at will"
+                        "You can invoke this tattoo to cast the {@spell Disguise Self|PHB} spell at will"
                     ]
                 }
             ]
         },
-        {
-            "name": "Wakefulness",
+        {   "name": "Wakefulness",
             "source": "InkmagusReEditedAnna",
             "prerequisite": [
                 {
@@ -3117,8 +3119,7 @@
                 }
             ]
         },
-        {
-            "name": "White Feather",
+        {   "name": "White Feather",
             "source": "InkmagusReEditedAnna",
             "prerequisite": [
                 {
@@ -3138,9 +3139,252 @@
                     "type": "list",
                     "items": [
                         "When calculating the damage you take from falling, reduce the distance you fell by 10 feet for that calculation.",
-                        "You can invoke this tattoo to cast feather fall at will"
+                        "You can invoke this tattoo to cast {@spell Feather Fall|PHB} at will"
                     ]
                 }
+            ]
+        }
+    ],
+    "table": [
+        {   "name": "Luck Die",
+            "source": "InkmagusReEditedAnna",
+            "type": "table",
+            "colLabels": [
+                "InkMagus Level",
+                "Die Type"
+            ],
+            "colStyles": [
+                "col-3 text-center",
+                "col-3 text-center"
+            ],
+            "rows": [
+                [
+                    "2nd",
+                    "{@dice 1d4}"
+                ],
+                [
+                    "5th",
+                    "{@dice 1d6}"
+                ],
+                [
+                    "8th",
+                    "{@dice 1d8}"
+                ],
+                [
+                    "11th",
+                    "{@dice 1d10}"
+                ],
+                [
+                    "14th",
+                    "{@dice 1d12}"
+                ],
+                [
+                    "17th",
+                    "{@dice 2d6}"
+                ]
+            ]
+        },
+        {   "name": "Minor Magical Properties",
+            "source": "InkmagusReEditedAnna",
+            "type": "table",
+            "caption": "Optional Caption",
+            "colLabels": [
+                "Roll",
+                "Enchantment"
+            ],
+            "rows": [
+                [
+                    1,
+                    "The tattoo glows faintly in the dark"
+                ],
+                [
+                    2,
+                    "The tattoo is animated, and moves in a semblance of life"
+                ],
+                [
+                    3,
+                    "The tattoo roams around the body at will"
+                ],
+                [
+                    4,
+                    "The tattoo changes depending on its owners mood"
+                ],
+                [
+                    5,
+                    "The tattoo is only visible under moonlight"
+                ],
+                [
+                    6,
+                    "The tattoo burns like a brand when touched by someone other than its owner"
+                ],
+                [
+                    7,
+                    "The tattoo only appears when a particular password is spoken"
+                ],
+                [
+                    8,
+                    "The tattoo refers to some future event, unknown to the tattoos owner"
+                ],
+                [
+                    9,
+                    "The tattoo becomes more detailed to an observer as they get to know its owner"
+                ],
+                [
+                    10,
+                    "The tattoo makes an appropriate ambient sound at the owners will"
+                ],
+                [
+                    11,
+                    "The tattoo changes according to the time of day"
+                ],
+                [
+                    12,
+                    "The tattoo glitters and shifts as if it were made of gemstones"
+                ],
+                [
+                    13,
+                    "The tattoo is the clour of dull iron, and rusts if it gets wet"
+                ],
+                [
+                    14,
+                    "The tattoo repels dirt"
+                ],
+                [
+                    15,
+                    "The tattoo is shy, and will try to hide from view"
+                ],
+                [
+                    16,
+                    "The tattoo is bold, and will try to always be on show"
+                ],
+                [
+                    17,
+                    "The tattoo changes according to the weather"
+                ],
+                [
+                    18,
+                    "The tattoo orientates itself to point north"
+                ],
+                [
+                    19,
+                    "The tattoo looks slightly different to everyone who views it"
+                ],
+                [
+                    20,
+                    "The tattoo grows more complicated to reflect the owner's accomplishments"
+                ]
+            ]
+        },
+        {   "name": "Advantageous Enchantments",
+            "source": "InkmagusReEditedAnna",
+            "type": "table",
+            "caption": "Optional Caption",
+            "colLabels": [
+                "Roll",
+                "Property",
+                "Enchantment"
+            ],
+            "rows": [
+                [
+                    1,
+                    "Glowing",
+                    "Twice a day, a touch can activate this tattoo. It illuminates as if the cantrip light has been cast on it"
+                ],
+                [
+                    2,
+                    "Electrified",
+                    "Once per day, if another creature touches this tattoo the owner can cast the cantrip shocking grasp against that creature. The owner makes a ranged spell attack against the creature, on a hit the creature takes 1d8 lightning damage"
+                ],
+                [
+                    3,
+                    "Fortified",
+                    "The tattoo grants advantage on CON saving throws"
+                ],
+                [
+                    4,
+                    "Mighty",
+                    "The tattoo grants advantage on STR saving throws"
+                ],
+                [
+                    5,
+                    "Delicate",
+                    "The tattoo grants advantage on DEX saving throws"
+                ],
+                [
+                    6,
+                    "Intricate",
+                    "The tattoo grants advantage on INT saving throws"
+                ],
+                [
+                    7,
+                    "Ancient",
+                    "The tattoo grants advantage on WIS saving throws"
+                ],
+                [
+                    8,
+                    "Distinctive",
+                    "The tattoo grants advantage on CHA saving throws"
+                ],
+                [
+                    9,
+                    "Threatening",
+                    "The tattoo grants +2 to Intimidation checks against creatures that can see it"
+                ],
+                [
+                    10,
+                    "Charming",
+                    "The tattoo grants +2 to Persuasion checks against creatures that can see it"
+                ],
+                [
+                    11,
+                    "Shadowy",
+                    "If this tattoo is placed on a hand or an arm, it gives plus +2 to Sleight of Hand checks made with that hand"
+                ],
+                [
+                    12,
+                    "Vibrant",
+                    "Once per day, this tattoo can be touched by the owner or another creature to heal the owner for 2d4 hit points. Once this affect has been used, the tattoo fades to be almost invisible until the owner completes a long rest"
+                ],
+                [
+                    13,
+                    "Obscured",
+                    "The tattoo grants a +2 bonus to stealth checks when it is covered by clothing or armour or similarly hidden from view"
+                ],
+                [
+                    14,
+                    "Wary",
+                    "The tattoo adds +2 to its owner's passive perception when it is exposed"
+                ],
+                [
+                    15,
+                    "Weird",
+                    "Once per day, you can force a creature that can see this tattoo to make a DC15 WIS saving throw. On a failed save the creature is frightened of you for one hour, or until they can no longer see the tattoo"
+                ],
+                [
+                    16,
+                    "Illuminating",
+                    "This tattoo grants its owner darkvision for 60ft"
+                ],
+                [
+                    17,
+                    "Sacred",
+                    "The tattoo grants +1 to Religion checks. Once per day, you may touch this tattoo to another creature to cast the cantrip Spare the Dying"
+                ],
+                [
+                    18,
+                    "Wakeful",
+                    "The owner of this tattoo cannot be magically put to sleep"
+                ],
+                [
+                    19,
+                    "Pure",
+                    "This tattoo grants the owner advantage on saving throws against being poisoned, and resistance to poison damage"
+                ],
+                [
+                    20,
+                    "Lucky",
+                    "This tattoo grants a +2 bonus to any skill that is being used in a game of chance. Once per day, you may reroll a 1 that you roll on a d20 for an attack roll, ability check or saving throw"
+                ]
             ]
         }
     ]
