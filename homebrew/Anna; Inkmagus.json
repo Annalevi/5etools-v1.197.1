@@ -14,11 +14,11 @@
                 "version": "1.0",
                 "color": "6f2da8",
                 "url": "none",
-                "targetSchema": "1.2"
+                "targetSchema": "1.0"
             }
         ],
         "dateAdded": 1705049695,
-        "dateLastModified": 1705049695
+        "dateLastModified": 1708082172
     },
     "class": [
         {
@@ -3189,7 +3189,7 @@
             "type": "table",
             "caption": "Optional Caption",
             "colLabels": [
-                "Roll",
+                "Roll {@dice 1d20}",
                 "Enchantment"
             ],
             "rows": [
@@ -3280,7 +3280,7 @@
             "type": "table",
             "caption": "Optional Caption",
             "colLabels": [
-                "Roll",
+                "Roll {@dice 1d20}",
                 "Property",
                 "Enchantment"
             ],
