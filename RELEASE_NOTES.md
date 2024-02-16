@@ -1,8 +1,9 @@
-v1.197.1
+v1.197.4
 
-- Added Dynamic Map Viewer support to Grim Hollow: Lairs of Etharis maps
-- Fixed filters failing to include loaded homebrew by default
-- Fixed the Objects page failing to render an object's senses (if it has any)
-- (Brew) Fixed `@chance` tag success/failure text failing to render `@tag`s 
-- (Brew) The image size tagging script may now use a local copy of the homebrew repo as a proxy for URLs against that repo (thanks @ Lyra)
+- Added "One D&D" filter to Prerelease Content Manager "Get Prerelease Content" view
+- Switched "Added [date]" column to "Published [date]" in Prerelease Content Manager "Get Prerelease Content" view
+- Added tokens for Chains of Asmodeus NPCs/other creatures
+- (Brew) Added "Preview" button to text converter output
+- (Brew) Added support for "month" spell durations
+- (Brew) Fixed homebrew content which depends on prerelease content failing to load that prerelease content
 - (Fixed typos/added tags)
