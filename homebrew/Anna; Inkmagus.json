@@ -537,7 +537,7 @@
             "classFeatures": [
                 "Imagry|Inkmagus|InkmagusReEditedAnna|1",
                 "Inkcasting|Inkmagus|InkmagusReEditedAnna|1",
-                "Channel Marks (1/rest)|Inkmagus|InkmagusReEditedAnna|2",
+                "Channel Marks (2/rest)|Inkmagus|InkmagusReEditedAnna|2",
                 "Otherworldly Perception|Inkmagus|InkmagusReEditedAnna|2",
                 {
                     "classFeature": "Inking Specialization|Inkmagus|InkmagusReEditedAnna|3",
@@ -550,7 +550,7 @@
                     "classFeature": "Specialist feature|Inkmagus|InkmagusReEditedAnna|6",
                     "gainSubclassFeature": true
                 },
-                "Channel Marks (2/rest)|Inkmagus|InkmagusReEditedAnna|6",
+                "Channel Marks (3/rest)|Inkmagus|InkmagusReEditedAnna|6",
                 "Ability Score Improvement|Inkmagus|InkmagusReEditedAnna|8",
                 "Ritual Painter (3rd level)|Inkmagus|InkmagusReEditedAnna|9",
                 {
@@ -569,7 +569,7 @@
                     "classFeature": "Specialist feature|Inkmagus|InkmagusReEditedAnna|17",
                     "gainSubclassFeature": true
                 },
-                "Channel Marks (3/rest)|Inkmagus|InkmagusReEditedAnna|18",
+                "Channel Marks (4/rest)|Inkmagus|InkmagusReEditedAnna|18",
                 "Mark of the Stars|Inkmagus|InkmagusReEditedAnna|18",
                 "Ability score Improvement|Inkmagus|InkmagusReEditedAnna|19",
                 "Living Canvass|Inkmagus|InkmagusReEditedAnna|20"
@@ -2851,6 +2851,32 @@
                 }
             ]
         },
+        {
+            "name": "Earthy Inkling",
+            "source": "InkmagusReEditedAnna",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Inkmagus",
+                            "source": "InkmagusReEditedAnna",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "{@note this tattoo embodies a creature known for its incessant tunneling and subterranean lifestyle.}",
+                {
+                    "type": "list",
+                    "items": [
+                        "As an action, you can cast the find familiar spell using the tattoo to summon an earthy inkling familiar. For the duration, the tattoo separates from your neck and reforms as the earthy inkling—a fiend. The tattoo can't be used this way again until 24 hours have passed.",
+                        "When the earthy inkling drops to 0 hit points or is dismissed, it reforms as a sentient and animated tattoo on your skin."
+                    ]
+                }
+            ]
+        },
         {   "name": "Forest Print",
             "source": "InkmagusReEditedAnna",
             "prerequisite": [
@@ -2872,6 +2898,35 @@
                     "items": [
                         "You can hide even while only lightly obscured by leaves, grass, or other plant-based barriers.",
                         "Once you reach 5th level if you are heavily obscured from all hostile creatures by leaves, grass, or other natural barriers, you can use a bonus action to become invisible. This invisibility lasts until you move, take an action, or take a reaction"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Hands of Healing",
+            "source": "InkmagusReEditedAnna",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Inkmagus",
+                            "source": "InkmagusReEditedAnna",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "{@note This tattoo resembles intricate, geometric patterns surrounding your hands..}",
+                {
+                    "type": "list",
+                    "items": [
+                        "You gain a pool of healing energy, which starts with 2d6.",
+                        "As a bonus action, you can invoke this tattoo, touch a creature, and expend a number of d6s from your pool up to half the total number. Roll the d6s you expended and add your Intelligence modifier. The target regains hit points equal to the number rolled.",
+                        "Once you have no more d6s left in your pool, you can invoke this tattoo once more as an action to touch a creature and heal it by a number of hit points equal to your Intelligence modifier. You then can't invoke this tattoo again until you finish a long rest.",
+                        "You recover all expended d6s when you finish a long rest.",
+                        "at 5th level the pool increases to 4d6, at level 11 to 6d6 and at level 15 to 8d6."
                     ]
                 }
             ]
@@ -3030,7 +3085,7 @@
                     ]
                 }
             ]
-        }
+        }   
     ],
     "table": [
         {   "name": "Luck Die",
